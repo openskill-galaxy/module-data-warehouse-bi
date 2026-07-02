@@ -1,0 +1,41 @@
+{
+  "id": "mod-data-warehouse-bi",
+  "slug": "module-data-warehouse-bi",
+  "title": "数据仓库与BI分析",
+  "subtitle": "面向数据分析师和BI开发入门者",
+  "description": "面向数据分析师BI报表开发和数据仓库入门学习者的DW分层维度建模事实表维度表指标体系SQL分析数据看板口径管理与项目实战。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "数据仓库",
+    "BI",
+    "维度建模",
+    "事实表",
+    "维度表",
+    "指标体系",
+    "数据看板",
+    "SQL分析"
+  ],
+  "estimatedHours": 170,
+  "difficulty": "intermediate",
+  "updatedAt": "2026-07-02T12:00:00.000Z",
+  "coverEmoji": "📊",
+  "repoUrl": "https://github.com/openskill-galaxy/module-data-warehouse-bi",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 735,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 101
+  }
+}
