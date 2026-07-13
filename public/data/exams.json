@@ -36,7 +36,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门基础",
+    "description": "DW入门基础",
+    "slug": "dw入门基础"
   },
   {
     "id": "dw-exam-02",
@@ -75,7 +79,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市基础",
+    "description": "DW数据集市基础",
+    "slug": "dw数据集市基础"
   },
   {
     "id": "dw-exam-03",
@@ -114,7 +122,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计基础",
+    "description": "分层设计基础",
+    "slug": "分层设计基础"
   },
   {
     "id": "dw-exam-04",
@@ -153,7 +165,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模基础",
+    "description": "维度建模基础",
+    "slug": "维度建模基础"
   },
   {
     "id": "dw-exam-05",
@@ -192,7 +208,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表基础",
+    "description": "事实表维度表基础",
+    "slug": "事实表维度表基础"
   },
   {
     "id": "dw-exam-06",
@@ -231,7 +251,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花基础",
+    "description": "星型雪花基础",
+    "slug": "星型雪花基础"
   },
   {
     "id": "dw-exam-07",
@@ -270,7 +294,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系基础",
+    "description": "指标体系基础",
+    "slug": "指标体系基础"
   },
   {
     "id": "dw-exam-08",
@@ -309,7 +337,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单基础",
+    "description": "用户商品订单基础",
+    "slug": "用户商品订单基础"
   },
   {
     "id": "dw-exam-09",
@@ -348,7 +380,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表基础",
+    "description": "SQL宽表基础",
+    "slug": "sql宽表基础"
   },
   {
     "id": "dw-exam-10",
@@ -387,7 +423,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表基础",
+    "description": "BI报表基础",
+    "slug": "bi报表基础"
   },
   {
     "id": "dw-exam-11",
@@ -426,7 +466,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化基础",
+    "description": "数据可视化基础",
+    "slug": "数据可视化基础"
   },
   {
     "id": "dw-exam-12",
@@ -465,7 +509,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径基础",
+    "description": "质量权限口径基础",
+    "slug": "质量权限口径基础"
   },
   {
     "id": "dw-exam-13",
@@ -504,7 +552,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战基础",
+    "description": "DW项目实战基础",
+    "slug": "dw项目实战基础"
   },
   {
     "id": "dw-exam-14",
@@ -543,7 +595,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试基础",
+    "description": "DW面试基础",
+    "slug": "dw面试基础"
   },
   {
     "id": "dw-exam-15",
@@ -582,7 +638,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门基础",
+    "description": "DW入门基础",
+    "slug": "dw入门基础"
   },
   {
     "id": "dw-exam-16",
@@ -621,7 +681,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市基础",
+    "description": "DW数据集市基础",
+    "slug": "dw数据集市基础"
   },
   {
     "id": "dw-exam-17",
@@ -660,7 +724,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计基础",
+    "description": "分层设计基础",
+    "slug": "分层设计基础"
   },
   {
     "id": "dw-exam-18",
@@ -699,7 +767,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模基础",
+    "description": "维度建模基础",
+    "slug": "维度建模基础"
   },
   {
     "id": "dw-exam-19",
@@ -738,7 +810,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表基础",
+    "description": "事实表维度表基础",
+    "slug": "事实表维度表基础"
   },
   {
     "id": "dw-exam-20",
@@ -777,7 +853,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花基础",
+    "description": "星型雪花基础",
+    "slug": "星型雪花基础"
   },
   {
     "id": "dw-exam-21",
@@ -816,7 +896,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系基础",
+    "description": "指标体系基础",
+    "slug": "指标体系基础"
   },
   {
     "id": "dw-exam-22",
@@ -855,7 +939,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单基础",
+    "description": "用户商品订单基础",
+    "slug": "用户商品订单基础"
   },
   {
     "id": "dw-exam-23",
@@ -894,7 +982,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表基础",
+    "description": "SQL宽表基础",
+    "slug": "sql宽表基础"
   },
   {
     "id": "dw-exam-24",
@@ -933,7 +1025,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表基础",
+    "description": "BI报表基础",
+    "slug": "bi报表基础"
   },
   {
     "id": "dw-exam-25",
@@ -972,7 +1068,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化基础",
+    "description": "数据可视化基础",
+    "slug": "数据可视化基础"
   },
   {
     "id": "dw-exam-26",
@@ -1011,7 +1111,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径基础",
+    "description": "质量权限口径基础",
+    "slug": "质量权限口径基础"
   },
   {
     "id": "dw-exam-27",
@@ -1050,7 +1154,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战基础",
+    "description": "DW项目实战基础",
+    "slug": "dw项目实战基础"
   },
   {
     "id": "dw-exam-28",
@@ -1089,7 +1197,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试基础",
+    "description": "DW面试基础",
+    "slug": "dw面试基础"
   },
   {
     "id": "dw-exam-29",
@@ -1128,7 +1240,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门基础",
+    "description": "DW入门基础",
+    "slug": "dw入门基础"
   },
   {
     "id": "dw-exam-30",
@@ -1167,7 +1283,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市基础",
+    "description": "DW数据集市基础",
+    "slug": "dw数据集市基础"
   },
   {
     "id": "dw-exam-31",
@@ -1206,7 +1326,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计基础",
+    "description": "分层设计基础",
+    "slug": "分层设计基础"
   },
   {
     "id": "dw-exam-32",
@@ -1245,7 +1369,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模基础",
+    "description": "维度建模基础",
+    "slug": "维度建模基础"
   },
   {
     "id": "dw-exam-33",
@@ -1284,7 +1412,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表基础",
+    "description": "事实表维度表基础",
+    "slug": "事实表维度表基础"
   },
   {
     "id": "dw-exam-34",
@@ -1323,7 +1455,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花基础",
+    "description": "星型雪花基础",
+    "slug": "星型雪花基础"
   },
   {
     "id": "dw-exam-35",
@@ -1362,7 +1498,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系基础",
+    "description": "指标体系基础",
+    "slug": "指标体系基础"
   },
   {
     "id": "dw-exam-36",
@@ -1401,7 +1541,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单进阶",
+    "description": "用户商品订单进阶",
+    "slug": "用户商品订单进阶"
   },
   {
     "id": "dw-exam-37",
@@ -1440,7 +1584,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表进阶",
+    "description": "SQL宽表进阶",
+    "slug": "sql宽表进阶"
   },
   {
     "id": "dw-exam-38",
@@ -1479,7 +1627,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表进阶",
+    "description": "BI报表进阶",
+    "slug": "bi报表进阶"
   },
   {
     "id": "dw-exam-39",
@@ -1518,7 +1670,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化进阶",
+    "description": "数据可视化进阶",
+    "slug": "数据可视化进阶"
   },
   {
     "id": "dw-exam-40",
@@ -1557,7 +1713,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径进阶",
+    "description": "质量权限口径进阶",
+    "slug": "质量权限口径进阶"
   },
   {
     "id": "dw-exam-41",
@@ -1596,7 +1756,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战进阶",
+    "description": "DW项目实战进阶",
+    "slug": "dw项目实战进阶"
   },
   {
     "id": "dw-exam-42",
@@ -1635,7 +1799,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试进阶",
+    "description": "DW面试进阶",
+    "slug": "dw面试进阶"
   },
   {
     "id": "dw-exam-43",
@@ -1674,7 +1842,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门进阶",
+    "description": "DW入门进阶",
+    "slug": "dw入门进阶"
   },
   {
     "id": "dw-exam-44",
@@ -1713,7 +1885,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市进阶",
+    "description": "DW数据集市进阶",
+    "slug": "dw数据集市进阶"
   },
   {
     "id": "dw-exam-45",
@@ -1752,7 +1928,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计进阶",
+    "description": "分层设计进阶",
+    "slug": "分层设计进阶"
   },
   {
     "id": "dw-exam-46",
@@ -1791,7 +1971,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模进阶",
+    "description": "维度建模进阶",
+    "slug": "维度建模进阶"
   },
   {
     "id": "dw-exam-47",
@@ -1830,7 +2014,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表进阶",
+    "description": "事实表维度表进阶",
+    "slug": "事实表维度表进阶"
   },
   {
     "id": "dw-exam-48",
@@ -1869,7 +2057,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花进阶",
+    "description": "星型雪花进阶",
+    "slug": "星型雪花进阶"
   },
   {
     "id": "dw-exam-49",
@@ -1908,7 +2100,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系进阶",
+    "description": "指标体系进阶",
+    "slug": "指标体系进阶"
   },
   {
     "id": "dw-exam-50",
@@ -1947,7 +2143,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单进阶",
+    "description": "用户商品订单进阶",
+    "slug": "用户商品订单进阶"
   },
   {
     "id": "dw-exam-51",
@@ -1986,7 +2186,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表进阶",
+    "description": "SQL宽表进阶",
+    "slug": "sql宽表进阶"
   },
   {
     "id": "dw-exam-52",
@@ -2025,7 +2229,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表进阶",
+    "description": "BI报表进阶",
+    "slug": "bi报表进阶"
   },
   {
     "id": "dw-exam-53",
@@ -2064,7 +2272,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化进阶",
+    "description": "数据可视化进阶",
+    "slug": "数据可视化进阶"
   },
   {
     "id": "dw-exam-54",
@@ -2103,7 +2315,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径进阶",
+    "description": "质量权限口径进阶",
+    "slug": "质量权限口径进阶"
   },
   {
     "id": "dw-exam-55",
@@ -2142,7 +2358,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战进阶",
+    "description": "DW项目实战进阶",
+    "slug": "dw项目实战进阶"
   },
   {
     "id": "dw-exam-56",
@@ -2181,7 +2401,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试进阶",
+    "description": "DW面试进阶",
+    "slug": "dw面试进阶"
   },
   {
     "id": "dw-exam-57",
@@ -2220,7 +2444,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门进阶",
+    "description": "DW入门进阶",
+    "slug": "dw入门进阶"
   },
   {
     "id": "dw-exam-58",
@@ -2259,7 +2487,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市进阶",
+    "description": "DW数据集市进阶",
+    "slug": "dw数据集市进阶"
   },
   {
     "id": "dw-exam-59",
@@ -2298,7 +2530,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计进阶",
+    "description": "分层设计进阶",
+    "slug": "分层设计进阶"
   },
   {
     "id": "dw-exam-60",
@@ -2337,7 +2573,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模进阶",
+    "description": "维度建模进阶",
+    "slug": "维度建模进阶"
   },
   {
     "id": "dw-exam-61",
@@ -2376,7 +2616,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表进阶",
+    "description": "事实表维度表进阶",
+    "slug": "事实表维度表进阶"
   },
   {
     "id": "dw-exam-62",
@@ -2415,7 +2659,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花进阶",
+    "description": "星型雪花进阶",
+    "slug": "星型雪花进阶"
   },
   {
     "id": "dw-exam-63",
@@ -2454,7 +2702,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系进阶",
+    "description": "指标体系进阶",
+    "slug": "指标体系进阶"
   },
   {
     "id": "dw-exam-64",
@@ -2493,7 +2745,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单进阶",
+    "description": "用户商品订单进阶",
+    "slug": "用户商品订单进阶"
   },
   {
     "id": "dw-exam-65",
@@ -2532,7 +2788,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表进阶",
+    "description": "SQL宽表进阶",
+    "slug": "sql宽表进阶"
   },
   {
     "id": "dw-exam-66",
@@ -2571,7 +2831,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表综合",
+    "description": "BI报表综合",
+    "slug": "bi报表综合"
   },
   {
     "id": "dw-exam-67",
@@ -2610,7 +2874,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化综合",
+    "description": "数据可视化综合",
+    "slug": "数据可视化综合"
   },
   {
     "id": "dw-exam-68",
@@ -2649,7 +2917,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径综合",
+    "description": "质量权限口径综合",
+    "slug": "质量权限口径综合"
   },
   {
     "id": "dw-exam-69",
@@ -2688,7 +2960,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战综合",
+    "description": "DW项目实战综合",
+    "slug": "dw项目实战综合"
   },
   {
     "id": "dw-exam-70",
@@ -2727,7 +3003,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试综合",
+    "description": "DW面试综合",
+    "slug": "dw面试综合"
   },
   {
     "id": "dw-exam-71",
@@ -2766,7 +3046,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门综合",
+    "description": "DW入门综合",
+    "slug": "dw入门综合"
   },
   {
     "id": "dw-exam-72",
@@ -2805,7 +3089,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市综合",
+    "description": "DW数据集市综合",
+    "slug": "dw数据集市综合"
   },
   {
     "id": "dw-exam-73",
@@ -2844,7 +3132,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计综合",
+    "description": "分层设计综合",
+    "slug": "分层设计综合"
   },
   {
     "id": "dw-exam-74",
@@ -2883,7 +3175,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模综合",
+    "description": "维度建模综合",
+    "slug": "维度建模综合"
   },
   {
     "id": "dw-exam-75",
@@ -2922,7 +3218,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表综合",
+    "description": "事实表维度表综合",
+    "slug": "事实表维度表综合"
   },
   {
     "id": "dw-exam-76",
@@ -2961,7 +3261,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花综合",
+    "description": "星型雪花综合",
+    "slug": "星型雪花综合"
   },
   {
     "id": "dw-exam-77",
@@ -3000,7 +3304,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系综合",
+    "description": "指标体系综合",
+    "slug": "指标体系综合"
   },
   {
     "id": "dw-exam-78",
@@ -3039,7 +3347,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单综合",
+    "description": "用户商品订单综合",
+    "slug": "用户商品订单综合"
   },
   {
     "id": "dw-exam-79",
@@ -3078,7 +3390,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表综合",
+    "description": "SQL宽表综合",
+    "slug": "sql宽表综合"
   },
   {
     "id": "dw-exam-80",
@@ -3117,7 +3433,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表综合",
+    "description": "BI报表综合",
+    "slug": "bi报表综合"
   },
   {
     "id": "dw-exam-81",
@@ -3156,7 +3476,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化综合",
+    "description": "数据可视化综合",
+    "slug": "数据可视化综合"
   },
   {
     "id": "dw-exam-82",
@@ -3195,7 +3519,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径综合",
+    "description": "质量权限口径综合",
+    "slug": "质量权限口径综合"
   },
   {
     "id": "dw-exam-83",
@@ -3234,7 +3562,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战综合",
+    "description": "DW项目实战综合",
+    "slug": "dw项目实战综合"
   },
   {
     "id": "dw-exam-84",
@@ -3273,7 +3605,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试综合",
+    "description": "DW面试综合",
+    "slug": "dw面试综合"
   },
   {
     "id": "dw-exam-85",
@@ -3312,7 +3648,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门综合",
+    "description": "DW入门综合",
+    "slug": "dw入门综合"
   },
   {
     "id": "dw-exam-86",
@@ -3351,7 +3691,11 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市综合",
+    "description": "DW数据集市综合",
+    "slug": "dw数据集市综合"
   },
   {
     "id": "dw-exam-87",
@@ -3390,7 +3734,11 @@
     "tags": [
       "分层设计"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "分层设计综合",
+    "description": "分层设计综合",
+    "slug": "分层设计综合"
   },
   {
     "id": "dw-exam-88",
@@ -3429,7 +3777,11 @@
     "tags": [
       "维度建模"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "维度建模综合",
+    "description": "维度建模综合",
+    "slug": "维度建模综合"
   },
   {
     "id": "dw-exam-89",
@@ -3468,7 +3820,11 @@
     "tags": [
       "事实表维度表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事实表维度表综合",
+    "description": "事实表维度表综合",
+    "slug": "事实表维度表综合"
   },
   {
     "id": "dw-exam-90",
@@ -3507,7 +3863,11 @@
     "tags": [
       "星型雪花"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "星型雪花综合",
+    "description": "星型雪花综合",
+    "slug": "星型雪花综合"
   },
   {
     "id": "dw-exam-91",
@@ -3546,7 +3906,11 @@
     "tags": [
       "指标体系"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "指标体系综合",
+    "description": "指标体系综合",
+    "slug": "指标体系综合"
   },
   {
     "id": "dw-exam-92",
@@ -3585,7 +3949,11 @@
     "tags": [
       "用户商品订单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "用户商品订单综合",
+    "description": "用户商品订单综合",
+    "slug": "用户商品订单综合"
   },
   {
     "id": "dw-exam-93",
@@ -3624,7 +3992,11 @@
     "tags": [
       "SQL宽表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "SQL宽表综合",
+    "description": "SQL宽表综合",
+    "slug": "sql宽表综合"
   },
   {
     "id": "dw-exam-94",
@@ -3663,7 +4035,11 @@
     "tags": [
       "BI报表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "BI报表综合",
+    "description": "BI报表综合",
+    "slug": "bi报表综合"
   },
   {
     "id": "dw-exam-95",
@@ -3702,7 +4078,11 @@
     "tags": [
       "数据可视化"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据可视化综合",
+    "description": "数据可视化综合",
+    "slug": "数据可视化综合"
   },
   {
     "id": "dw-exam-96",
@@ -3741,7 +4121,11 @@
     "tags": [
       "质量权限口径"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "质量权限口径综合",
+    "description": "质量权限口径综合",
+    "slug": "质量权限口径综合"
   },
   {
     "id": "dw-exam-97",
@@ -3780,7 +4164,11 @@
     "tags": [
       "DW项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW项目实战综合",
+    "description": "DW项目实战综合",
+    "slug": "dw项目实战综合"
   },
   {
     "id": "dw-exam-98",
@@ -3819,7 +4207,11 @@
     "tags": [
       "DW面试"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW面试综合",
+    "description": "DW面试综合",
+    "slug": "dw面试综合"
   },
   {
     "id": "dw-exam-99",
@@ -3858,7 +4250,11 @@
     "tags": [
       "DW入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW入门综合",
+    "description": "DW入门综合",
+    "slug": "dw入门综合"
   },
   {
     "id": "dw-exam-100",
@@ -3897,6 +4293,10 @@
     "tags": [
       "DW数据集市"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "DW数据集市综合",
+    "description": "DW数据集市综合",
+    "slug": "dw数据集市综合"
   }
 ]

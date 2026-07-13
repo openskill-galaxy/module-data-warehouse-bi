@@ -34,7 +34,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-001",
+      "dw-lesson-002",
+      "dw-lesson-003",
+      "dw-lesson-004",
+      "dw-lesson-005",
+      "dw-lesson-006",
+      "dw-lesson-007",
+      "dw-lesson-008",
+      "dw-lesson-009",
+      "dw-lesson-010",
+      "dw-lesson-011",
+      "dw-lesson-012",
+      "dw-lesson-013"
+    ],
+    "summary": "DW定位、与数据库区别、学习路线。"
   },
   {
     "id": "dw-course-02",
@@ -71,7 +87,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-014",
+      "dw-lesson-015",
+      "dw-lesson-016",
+      "dw-lesson-017",
+      "dw-lesson-018",
+      "dw-lesson-019",
+      "dw-lesson-020",
+      "dw-lesson-021",
+      "dw-lesson-022",
+      "dw-lesson-023",
+      "dw-lesson-024",
+      "dw-lesson-025",
+      "dw-lesson-026"
+    ],
+    "summary": "DW架构、数据集市、OLAP/OLTP区别、BI工具。"
   },
   {
     "id": "dw-course-03",
@@ -108,7 +140,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-027",
+      "dw-lesson-028",
+      "dw-lesson-029",
+      "dw-lesson-030",
+      "dw-lesson-031",
+      "dw-lesson-032",
+      "dw-lesson-033",
+      "dw-lesson-034",
+      "dw-lesson-035",
+      "dw-lesson-036",
+      "dw-lesson-037",
+      "dw-lesson-038",
+      "dw-lesson-039"
+    ],
+    "summary": "数据分层原则、各层职责、主题划分。"
   },
   {
     "id": "dw-course-04",
@@ -145,7 +193,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-040",
+      "dw-lesson-041",
+      "dw-lesson-042",
+      "dw-lesson-043",
+      "dw-lesson-044",
+      "dw-lesson-045",
+      "dw-lesson-046",
+      "dw-lesson-047",
+      "dw-lesson-048",
+      "dw-lesson-049",
+      "dw-lesson-050",
+      "dw-lesson-051",
+      "dw-lesson-052"
+    ],
+    "summary": "维度建模理论、星型模型、雪花模型。"
   },
   {
     "id": "dw-course-05",
@@ -182,7 +246,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-053",
+      "dw-lesson-054",
+      "dw-lesson-055",
+      "dw-lesson-056",
+      "dw-lesson-057",
+      "dw-lesson-058",
+      "dw-lesson-059",
+      "dw-lesson-060",
+      "dw-lesson-061",
+      "dw-lesson-062",
+      "dw-lesson-063",
+      "dw-lesson-064",
+      "dw-lesson-065"
+    ],
+    "summary": "事实表类型、维度表设计、SCD策略。"
   },
   {
     "id": "dw-course-06",
@@ -219,7 +299,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-066",
+      "dw-lesson-067",
+      "dw-lesson-068",
+      "dw-lesson-069",
+      "dw-lesson-070",
+      "dw-lesson-071",
+      "dw-lesson-072",
+      "dw-lesson-073",
+      "dw-lesson-074",
+      "dw-lesson-075",
+      "dw-lesson-076",
+      "dw-lesson-077",
+      "dw-lesson-078"
+    ],
+    "summary": "星型vs雪花、建模选择、反范式化。"
   },
   {
     "id": "dw-course-07",
@@ -256,7 +352,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-079",
+      "dw-lesson-080",
+      "dw-lesson-081",
+      "dw-lesson-082",
+      "dw-lesson-083",
+      "dw-lesson-084",
+      "dw-lesson-085",
+      "dw-lesson-086",
+      "dw-lesson-087",
+      "dw-lesson-088",
+      "dw-lesson-089",
+      "dw-lesson-090",
+      "dw-lesson-091"
+    ],
+    "summary": "原子指标、派生指标、复合指标、口径一致性。"
   },
   {
     "id": "dw-course-08",
@@ -293,7 +405,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-092",
+      "dw-lesson-093",
+      "dw-lesson-094",
+      "dw-lesson-095",
+      "dw-lesson-096",
+      "dw-lesson-097",
+      "dw-lesson-098",
+      "dw-lesson-099",
+      "dw-lesson-100",
+      "dw-lesson-101",
+      "dw-lesson-102",
+      "dw-lesson-103",
+      "dw-lesson-104"
+    ],
+    "summary": "主题域划分、各主题建模方法。"
   },
   {
     "id": "dw-course-09",
@@ -330,7 +458,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-105",
+      "dw-lesson-106",
+      "dw-lesson-107",
+      "dw-lesson-108",
+      "dw-lesson-109",
+      "dw-lesson-110",
+      "dw-lesson-111",
+      "dw-lesson-112",
+      "dw-lesson-113",
+      "dw-lesson-114",
+      "dw-lesson-115",
+      "dw-lesson-116",
+      "dw-lesson-117"
+    ],
+    "summary": "SQL分析、宽表设计、性能优化。"
   },
   {
     "id": "dw-course-10",
@@ -367,7 +511,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-118",
+      "dw-lesson-119",
+      "dw-lesson-120",
+      "dw-lesson-121",
+      "dw-lesson-122",
+      "dw-lesson-123",
+      "dw-lesson-124",
+      "dw-lesson-125",
+      "dw-lesson-126",
+      "dw-lesson-127",
+      "dw-lesson-128",
+      "dw-lesson-129",
+      "dw-lesson-130"
+    ],
+    "summary": "报表设计、看板设计、可视化选型。"
   },
   {
     "id": "dw-course-11",
@@ -404,7 +564,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-131",
+      "dw-lesson-132",
+      "dw-lesson-133",
+      "dw-lesson-134",
+      "dw-lesson-135",
+      "dw-lesson-136",
+      "dw-lesson-137",
+      "dw-lesson-138",
+      "dw-lesson-139",
+      "dw-lesson-140",
+      "dw-lesson-141",
+      "dw-lesson-142",
+      "dw-lesson-143"
+    ],
+    "summary": "可视化原则、图表选择、业务解读方法。"
   },
   {
     "id": "dw-course-12",
@@ -441,7 +617,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-144",
+      "dw-lesson-145",
+      "dw-lesson-146",
+      "dw-lesson-147",
+      "dw-lesson-148",
+      "dw-lesson-149",
+      "dw-lesson-150",
+      "dw-lesson-151",
+      "dw-lesson-152",
+      "dw-lesson-153",
+      "dw-lesson-154",
+      "dw-lesson-155",
+      "dw-lesson-156"
+    ],
+    "summary": "数据质量监控、权限设计、指标管理。"
   },
   {
     "id": "dw-course-13",
@@ -478,7 +670,23 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-157",
+      "dw-lesson-158",
+      "dw-lesson-159",
+      "dw-lesson-160",
+      "dw-lesson-161",
+      "dw-lesson-162",
+      "dw-lesson-163",
+      "dw-lesson-164",
+      "dw-lesson-165",
+      "dw-lesson-166",
+      "dw-lesson-167",
+      "dw-lesson-168",
+      "dw-lesson-169"
+    ],
+    "summary": "电商DW项目、建模、ETL、报表全流程。"
   },
   {
     "id": "dw-course-14",
@@ -515,6 +723,22 @@
       "会指标体系",
       "能完成DW项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "dw-lesson-170",
+      "dw-lesson-171",
+      "dw-lesson-172",
+      "dw-lesson-173",
+      "dw-lesson-174",
+      "dw-lesson-175",
+      "dw-lesson-176",
+      "dw-lesson-177",
+      "dw-lesson-178",
+      "dw-lesson-179",
+      "dw-lesson-180",
+      "dw-lesson-181",
+      "dw-lesson-182"
+    ],
+    "summary": "DW面试题、场景题、建模题、作品集。"
   }
 ]
