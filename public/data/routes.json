@@ -1,562 +1,81 @@
 [
   {
-    "id": "dw-route-01",
-    "slug": "DW路线1",
-    "title": "DW路线1",
-    "description": "DW路线1",
-    "summary": "DW路线1",
-    "targetUser": "目标1",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
+    "id": "mod-data-warehouse-bi-route-1",
+    "slug": "professional-path",
+    "title": "数据仓库与BI分析 专业级成长路线",
+    "summary": "带您由浅入深、由原理到实战系统通关 数据仓库与BI分析 核心要点。",
+    "steps": [
+      {
+        "order": 1,
+        "title": "数据仓库与BI分析 环境依赖搭建与运行机制",
+        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "courseId": "mod-data-warehouse-bi-c-1",
+        "lessonId": "mod-data-warehouse-bi-l-1"
+      },
+      {
+        "order": 2,
+        "title": "数据仓库与BI分析 配置文件覆盖与属性解析",
+        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "courseId": "mod-data-warehouse-bi-c-1",
+        "lessonId": "mod-data-warehouse-bi-l-2"
+      },
+      {
+        "order": 3,
+        "title": "数据仓库与BI分析 API 接口规范与数据通信",
+        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "courseId": "mod-data-warehouse-bi-c-2",
+        "lessonId": "mod-data-warehouse-bi-l-3"
+      },
+      {
+        "order": 4,
+        "title": "数据仓库与BI分析 核心控制器与数据校验机制",
+        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "courseId": "mod-data-warehouse-bi-c-2",
+        "lessonId": "mod-data-warehouse-bi-l-4"
+      },
+      {
+        "order": 5,
+        "title": "数据仓库与BI分析 缓存优化与垃圾回收调优",
+        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "courseId": "mod-data-warehouse-bi-c-3",
+        "lessonId": "mod-data-warehouse-bi-l-5"
+      },
+      {
+        "order": 6,
+        "title": "数据仓库与BI分析 可观测性日志与分布式链路监控",
+        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "courseId": "mod-data-warehouse-bi-c-3",
+        "lessonId": "mod-data-warehouse-bi-l-6"
+      }
     ]
   },
   {
-    "id": "dw-route-02",
-    "slug": "DW路线2",
-    "title": "DW路线2",
-    "description": "DW路线2",
-    "summary": "DW路线2",
-    "targetUser": "目标2",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-03",
-    "slug": "DW路线3",
-    "title": "DW路线3",
-    "description": "DW路线3",
-    "summary": "DW路线3",
-    "targetUser": "目标3",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-04",
-    "slug": "DW路线4",
-    "title": "DW路线4",
-    "description": "DW路线4",
-    "summary": "DW路线4",
-    "targetUser": "目标4",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-05",
-    "slug": "DW路线5",
-    "title": "DW路线5",
-    "description": "DW路线5",
-    "summary": "DW路线5",
-    "targetUser": "目标5",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-06",
-    "slug": "DW路线6",
-    "title": "DW路线6",
-    "description": "DW路线6",
-    "summary": "DW路线6",
-    "targetUser": "目标6",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-07",
-    "slug": "DW路线7",
-    "title": "DW路线7",
-    "description": "DW路线7",
-    "summary": "DW路线7",
-    "targetUser": "目标7",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-08",
-    "slug": "DW路线8",
-    "title": "DW路线8",
-    "description": "DW路线8",
-    "summary": "DW路线8",
-    "targetUser": "目标8",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-09",
-    "slug": "DW路线9",
-    "title": "DW路线9",
-    "description": "DW路线9",
-    "summary": "DW路线9",
-    "targetUser": "目标9",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-10",
-    "slug": "DW路线10",
-    "title": "DW路线10",
-    "description": "DW路线10",
-    "summary": "DW路线10",
-    "targetUser": "目标10",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-11",
-    "slug": "DW路线11",
-    "title": "DW路线11",
-    "description": "DW路线11",
-    "summary": "DW路线11",
-    "targetUser": "目标11",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-12",
-    "slug": "DW路线12",
-    "title": "DW路线12",
-    "description": "DW路线12",
-    "summary": "DW路线12",
-    "targetUser": "目标12",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-13",
-    "slug": "DW路线13",
-    "title": "DW路线13",
-    "description": "DW路线13",
-    "summary": "DW路线13",
-    "targetUser": "目标13",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-14",
-    "slug": "DW路线14",
-    "title": "DW路线14",
-    "description": "DW路线14",
-    "summary": "DW路线14",
-    "targetUser": "目标14",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-15",
-    "slug": "DW路线15",
-    "title": "DW路线15",
-    "description": "DW路线15",
-    "summary": "DW路线15",
-    "targetUser": "目标15",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-16",
-    "slug": "DW路线16",
-    "title": "DW路线16",
-    "description": "DW路线16",
-    "summary": "DW路线16",
-    "targetUser": "目标16",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-17",
-    "slug": "DW路线17",
-    "title": "DW路线17",
-    "description": "DW路线17",
-    "summary": "DW路线17",
-    "targetUser": "目标17",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-18",
-    "slug": "DW路线18",
-    "title": "DW路线18",
-    "description": "DW路线18",
-    "summary": "DW路线18",
-    "targetUser": "目标18",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-19",
-    "slug": "DW路线19",
-    "title": "DW路线19",
-    "description": "DW路线19",
-    "summary": "DW路线19",
-    "targetUser": "目标19",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-20",
-    "slug": "DW路线20",
-    "title": "DW路线20",
-    "description": "DW路线20",
-    "summary": "DW路线20",
-    "targetUser": "目标20",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-21",
-    "slug": "DW路线21",
-    "title": "DW路线21",
-    "description": "DW路线21",
-    "summary": "DW路线21",
-    "targetUser": "目标21",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-22",
-    "slug": "DW路线22",
-    "title": "DW路线22",
-    "description": "DW路线22",
-    "summary": "DW路线22",
-    "targetUser": "目标22",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-23",
-    "slug": "DW路线23",
-    "title": "DW路线23",
-    "description": "DW路线23",
-    "summary": "DW路线23",
-    "targetUser": "目标23",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-24",
-    "slug": "DW路线24",
-    "title": "DW路线24",
-    "description": "DW路线24",
-    "summary": "DW路线24",
-    "targetUser": "目标24",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-25",
-    "slug": "DW路线25",
-    "title": "DW路线25",
-    "description": "DW路线25",
-    "summary": "DW路线25",
-    "targetUser": "目标25",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-26",
-    "slug": "DW路线26",
-    "title": "DW路线26",
-    "description": "DW路线26",
-    "summary": "DW路线26",
-    "targetUser": "目标26",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-27",
-    "slug": "DW路线27",
-    "title": "DW路线27",
-    "description": "DW路线27",
-    "summary": "DW路线27",
-    "targetUser": "目标27",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-28",
-    "slug": "DW路线28",
-    "title": "DW路线28",
-    "description": "DW路线28",
-    "summary": "DW路线28",
-    "targetUser": "目标28",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-29",
-    "slug": "DW路线29",
-    "title": "DW路线29",
-    "description": "DW路线29",
-    "summary": "DW路线29",
-    "targetUser": "目标29",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-30",
-    "slug": "DW路线30",
-    "title": "DW路线30",
-    "description": "DW路线30",
-    "summary": "DW路线30",
-    "targetUser": "目标30",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-31",
-    "slug": "DW路线31",
-    "title": "DW路线31",
-    "description": "DW路线31",
-    "summary": "DW路线31",
-    "targetUser": "目标31",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-32",
-    "slug": "DW路线32",
-    "title": "DW路线32",
-    "description": "DW路线32",
-    "summary": "DW路线32",
-    "targetUser": "目标32",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-33",
-    "slug": "DW路线33",
-    "title": "DW路线33",
-    "description": "DW路线33",
-    "summary": "DW路线33",
-    "targetUser": "目标33",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-34",
-    "slug": "DW路线34",
-    "title": "DW路线34",
-    "description": "DW路线34",
-    "summary": "DW路线34",
-    "targetUser": "目标34",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "dw-route-35",
-    "slug": "DW路线35",
-    "title": "DW路线35",
-    "description": "DW路线35",
-    "summary": "DW路线35",
-    "targetUser": "目标35",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
+    "id": "mod-data-warehouse-bi-route-2",
+    "slug": "quick-start-path",
+    "title": "数据仓库与BI分析 快速通关极速路线",
+    "summary": "专为快速开发或面试突击设计的速成学习路径。",
+    "steps": [
+      {
+        "order": 1,
+        "title": "数据仓库与BI分析 环境依赖搭建与运行机制",
+        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "courseId": "mod-data-warehouse-bi-c-1",
+        "lessonId": "mod-data-warehouse-bi-l-1"
+      },
+      {
+        "order": 3,
+        "title": "数据仓库与BI分析 API 接口规范与数据通信",
+        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "courseId": "mod-data-warehouse-bi-c-2",
+        "lessonId": "mod-data-warehouse-bi-l-3"
+      },
+      {
+        "order": 5,
+        "title": "数据仓库与BI分析 缓存优化与垃圾回收调优",
+        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "courseId": "mod-data-warehouse-bi-c-3",
+        "lessonId": "mod-data-warehouse-bi-l-5"
+      }
     ]
   }
 ]
