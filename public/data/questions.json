@@ -1,218 +1,428 @@
 [
   {
     "id": "mod-data-warehouse-bi-q-1",
-    "slug": "question-course-1-2",
+    "slug": "question-1",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 环境依赖搭建与运行机制”的核心考点，以下表述最为准确的是？",
+    "stem": "数据仓库与业务数据库（OLTP 系统）的核心区别，下列描述最准确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "数据仓库面向主题、集成、相对稳定、反映历史变化，服务于分析决策而非日常交易"},
+      {"key": "B", "text": "数据仓库就是容量更大的 MySQL，用途完全相同"},
+      {"key": "C", "text": "数据仓库主要处理高并发的小事务写入"},
+      {"key": "D", "text": "业务数据库只存历史数据，数据仓库只存当天数据"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 环境依赖搭建与运行机制”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "这是 Inmon 对数据仓库的经典定义：面向主题（按业务域组织而非按应用）、集成（多源数据统一口径）、非易失（批量加载、极少更新）、随时间变化（保留历史快照）。OLTP 系统面向高并发短事务（下单、扣款），数仓面向大规模扫描聚合分析（OLAP），两者设计目标相反，B、C、D 均颠倒或曲解了两者分工。",
+    "tags": ["数据仓库", "OLAP"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-data-warehouse-bi-q-2",
-    "slug": "question-course-1-3",
+    "slug": "question-2",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 配置文件覆盖与属性解析”的核心考点，以下表述最为准确的是？",
+    "stem": "维度建模中，“事实表”通常存储的是什么？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "业务过程产生的度量值（如销售金额、数量）以及关联各维度的外键"},
+      {"key": "B", "text": "商品名称、类目、品牌等描述性属性"},
+      {"key": "C", "text": "数据库的用户权限配置"},
+      {"key": "D", "text": "ETL 任务的调度日志"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 配置文件覆盖与属性解析”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "事实表是维度模型的核心，记录业务事件的可度量数值（度量/指标）和指向维度表的外键，行数巨大但列相对少；描述性属性（B 所述的商品名称、类目等）放在维度表中，用于对事实做切片切块分析。C、D 与维度建模无关。",
+    "tags": ["维度建模", "事实表"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-data-warehouse-bi-q-3",
-    "slug": "question-course-2-4",
+    "slug": "question-3",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 API 接口规范与数据通信”的核心考点，以下表述最为准确的是？",
+    "stem": "星型模型（Star Schema）的典型结构是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "中心一张事实表，直接连接多张未再规范化的维度表"},
+      {"key": "B", "text": "所有表两两互相关联形成网状"},
+      {"key": "C", "text": "维度表被层层规范化拆分成多级子维表"},
+      {"key": "D", "text": "只有维度表没有事实表"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 API 接口规范与数据通信”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "answer": ["A"],
+    "explanation": "星型模型以事实表为中心，维度表做适度冗余（反规范化）直接挂接，形似星星；查询只需事实表与少量维表关联，性能好、易理解，是 BI 场景的主流选择。C 描述的是雪花模型（维度进一步规范化），节省存储但增加关联层级；B、D 不是维度建模的形态。",
+    "tags": ["维度建模", "星型模型"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-data-warehouse-bi-q-4",
-    "slug": "question-course-2-5",
+    "slug": "question-4",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 核心控制器与数据校验机制”的核心考点，以下表述最为准确的是？",
+    "stem": "典型的数仓分层架构中，ODS、DWD、DWS、ADS 各层的定位，下列正确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "ODS 贴源存储原始数据，DWD 做清洗后的明细，DWS 做主题汇总，ADS 面向具体应用输出结果"},
+      {"key": "B", "text": "ADS 存原始日志，ODS 面向报表应用"},
+      {"key": "C", "text": "DWD 只存放高度聚合的指标，DWS 存放未清洗的原始数据"},
+      {"key": "D", "text": "各层没有任何职责区别，仅是命名习惯"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 核心控制器与数据校验机制”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "answer": ["A"],
+    "explanation": "分层是数仓工程化的基石：ODS（Operational Data Store）贴源保留原始数据；DWD（Data Warehouse Detail）完成清洗、规范化、维度退化后的明细事实；DWS（Summary）按主题/粒度做轻度汇总（如用户日粒度宽表）；ADS（Application）直接服务报表、接口等应用。分层可以复用中间结果、隔离变更、便于问题定位与口径管理。B、C 层次颠倒，D 错误。",
+    "tags": ["数仓分层", "数据仓库"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-data-warehouse-bi-q-5",
-    "slug": "question-course-3-6",
+    "slug": "question-5",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 缓存优化与垃圾回收调优”的核心考点，以下表述最为准确的是？",
+    "stem": "BI 看板设计中，展示“各省份销售额在全国的分布对比”最合适的图表类型通常是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "地图（填色地图）或条形图"},
+      {"key": "B", "text": "散点图矩阵"},
+      {"key": "C", "text": "雷达图"},
+      {"key": "D", "text": "甘特图"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 缓存优化与垃圾回收调优”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-3",
+    "answer": ["A"],
+    "explanation": "地理维度的量值分布首选填色地图（Choropleth），直观呈现空间差异；若需要精确对比数值大小，排序后的条形图同样合适甚至更易读。散点图矩阵用于多变量相关性探索；雷达图适合少量对象的多指标对比；甘特图用于项目排期，均不匹配该场景。",
+    "tags": ["BI", "数据可视化"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-data-warehouse-bi-q-6",
-    "slug": "question-course-3-7",
+    "slug": "question-6",
     "type": "single",
-    "stem": "在学习 [数据仓库与BI分析] 的过程里，关于“数据仓库与BI分析 可观测性日志与分布式链路监控”的核心考点，以下表述最为准确的是？",
+    "stem": "指标体系建设中，“日活跃用户数（DAU）”这类指标最需要预先明确的是什么？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "统一的口径定义：如何算“活跃”、统计周期、去重方式、限定条件"},
+      {"key": "B", "text": "用什么颜色在看板上展示"},
+      {"key": "C", "text": "指标英文名的大小写风格"},
+      {"key": "D", "text": "存储该指标的服务器品牌"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“数据仓库与BI分析 可观测性日志与分布式链路监控”的正确答案为 A。解析：在 数据仓库与BI分析 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "数据仓库与BI分析",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-3",
+    "answer": ["A"],
+    "explanation": "同一个“DAU”，按启动算还是按登录算、自然日还是滚动 24 小时、是否排除爬虫与测试账号，结果可能相差巨大。指标口径不统一是 BI 项目最常见的信任危机来源，因此需要建立指标字典（原子指标+修饰词+统计周期的规范定义），保证各报表数据一致。B、C、D 都是次要或无关问题。",
+    "tags": ["指标体系"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-7",
+    "slug": "question-7",
+    "type": "single",
+    "stem": "维度建模的四步法（Kimball 方法论）的正确顺序是？",
+    "options": [
+      {"key": "A", "text": "选择业务过程 → 声明粒度 → 确定维度 → 确定事实"},
+      {"key": "B", "text": "确定事实 → 确定维度 → 声明粒度 → 选择业务过程"},
+      {"key": "C", "text": "先建 ADS 应用表，再反推明细层结构"},
+      {"key": "D", "text": "先采购 BI 工具，再决定建什么表"}
+    ],
+    "answer": ["A"],
+    "explanation": "Kimball 四步法：1) 选择业务过程（如下单、支付、退款）；2) 声明粒度（一行代表什么，如“一笔订单明细”，这是最关键的一步，粒度不清后患无穷）；3) 基于粒度确定描述性维度（时间、商品、用户、渠道）；4) 确定与粒度一致的事实度量（金额、件数）。顺序不可颠倒——粒度必须先于维度和事实确定。",
+    "tags": ["维度建模", "Kimball"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-8",
+    "slug": "question-8",
+    "type": "single",
+    "stem": "用户维度表需要保留用户属性的历史版本（如会员等级变化前后的记录），Kimball 体系中最常用的处理方式是？",
+    "options": [
+      {"key": "A", "text": "SCD Type 2：新增一行记录新版本，用生效/失效日期（或当前标志）标识"},
+      {"key": "B", "text": "SCD Type 1：直接覆盖旧值，不保留历史"},
+      {"key": "C", "text": "把用户表整体删除重建"},
+      {"key": "D", "text": "把历史属性存到事实表的度量列里"}
+    ],
+    "answer": ["A"],
+    "explanation": "缓慢变化维（SCD）的 Type 2 通过为同一自然键增加新代理键行、配合 start_date/end_date/is_current 字段，完整保留属性变化历史，使历史事实能关联到当时的维度状态，是需要历史追溯时的标准方案。Type 1 覆盖会丢失历史（B）；C 粗暴且丢历史；D 破坏事实表与维度表的职责分离。",
+    "tags": ["缓慢变化维", "维度建模"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-9",
+    "slug": "question-9",
+    "type": "single",
+    "stem": "分析“每个省份销售额及全国总计”时，下列哪个 SQL 特性最适合一次性同时得到分省小计和总计？",
+    "options": [
+      {"key": "A", "text": "GROUP BY 加 ROLLUP（或 GROUPING SETS）"},
+      {"key": "B", "text": "在 WHERE 里写 OR 连接所有省份名"},
+      {"key": "C", "text": "SELECT DISTINCT"},
+      {"key": "D", "text": "ORDER BY 排序"}
+    ],
+    "answer": ["A"],
+    "explanation": "ROLLUP 在普通分组之外自动附加逐级汇总行（省份小计 + 全国总计），GROUPING SETS 则可精确指定需要的分组组合，CUBE 生成全部组合，一条 SQL 替代多个 UNION ALL 查询，是数仓报表的常用写法。B 只是过滤条件，C 去重，D 排序，都无法生成汇总行。",
+    "tags": ["SQL分析", "聚合"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-10",
+    "slug": "question-10",
+    "type": "single",
+    "stem": "要计算“每个用户每笔订单金额及其占该用户总消费的比例”，最合适的 SQL 手段是？",
+    "options": [
+      {"key": "A", "text": "窗口函数：amount / SUM(amount) OVER (PARTITION BY user_id)"},
+      {"key": "B", "text": "普通 GROUP BY user_id，因为分组后仍能保留每笔订单明细"},
+      {"key": "C", "text": "对订单表做笛卡尔积"},
+      {"key": "D", "text": "只能导出到 Excel 手工计算"}
+    ],
+    "answer": ["A"],
+    "explanation": "窗口函数在保留明细行的同时计算分区聚合值，是“明细 + 占比/排名/累计”类需求的标准解法。B 错误：GROUP BY 会把每组坍缩成一行，丢失订单明细，若要保留明细需再关联回去，远不如窗口函数简洁；C 会产生错误的数据膨胀；D 显然不必要。窗口函数（RANK、LAG、SUM OVER 等）是数仓 SQL 面试的必考点。",
+    "tags": ["SQL分析", "窗口函数"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-11",
+    "slug": "question-11",
+    "type": "single",
+    "stem": "关于事实表的三种常见类型，下列对应关系正确的是？",
+    "options": [
+      {"key": "A", "text": "事务事实表记录业务事件明细；周期快照事实表按固定周期记录状态；累积快照事实表跟踪流程多个里程碑的完成情况"},
+      {"key": "B", "text": "事务事实表只能存月度汇总数据"},
+      {"key": "C", "text": "周期快照事实表记录每一次点击事件的明细"},
+      {"key": "D", "text": "累积快照事实表与事务事实表完全相同"}
+    ],
+    "answer": ["A"],
+    "explanation": "三类事实表服务不同分析场景：事务事实表一行一个业务事件（一笔支付），粒度最细；周期快照按天/周/月定期给状态拍照（每日库存余额、账户余额）；累积快照一行跟踪一个流程实例，随里程碑推进不断更新（订单从下单→支付→发货→签收的各时间点），适合分析流程时长。B、C 把粒度特征张冠李戴，D 错误。",
+    "tags": ["事实表", "维度建模"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-12",
+    "slug": "question-12",
+    "type": "single",
+    "stem": "老板质疑周报里的 GMV 与另一张看板对不上。作为 BI 分析师，最专业的第一步处理是？",
+    "options": [
+      {"key": "A", "text": "核对两处指标的口径定义与统计范围（是否含退款、含税、时间窗口、过滤条件）"},
+      {"key": "B", "text": "直接把数字改成一致，先应付过去"},
+      {"key": "C", "text": "断定另一张看板一定是错的"},
+      {"key": "D", "text": "把两个数取平均值上报"}
+    ],
+    "answer": ["A"],
+    "explanation": "指标对不上的首要嫌疑是口径差异：GMV 是否剔除取消/退款单、是否含运费优惠、按下单时间还是支付时间统计、时区截断等。规范流程是从口径定义 → 取数 SQL → 上游数据链路逐层核对定位差异根源，并推动指标字典统一口径。B、D 是数据造假行为，C 未经验证的断言都不可取。",
+    "tags": ["指标体系", "数据质量"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-13",
+    "slug": "question-13",
+    "type": "single",
+    "stem": "订单事实表粒度为“一行一笔订单明细（SKU 级）”，其中运费是订单级金额。若把订单级运费直接复制到每个明细行再按 SUM 汇总，会发生什么？",
+    "options": [
+      {"key": "A", "text": "运费被重复累加（多明细订单放大运费），这是典型的粒度不一致导致的度量放大错误"},
+      {"key": "B", "text": "结果完全正确，不需要任何处理"},
+      {"key": "C", "text": "SQL 会直接报语法错误"},
+      {"key": "D", "text": "数据库会自动识别并去重"}
+    ],
+    "answer": ["A"],
+    "explanation": "订单级度量放到明细粒度的事实表里，一张含 5 个 SKU 的订单其运费会被算 5 遍——这是维度建模中经典的“非可加事实/粒度错配”陷阱。正确做法：把运费按金额或数量分摊到明细行，或将订单级度量放入单独的订单粒度事实表，聚合时按订单去重（如 SUM(DISTINCT) 的替代方案或先按订单聚合）。数据库不会自动纠正这类语义错误。",
+    "tags": ["维度建模", "粒度"],
+    "difficulty": "hard",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-14",
+    "slug": "question-14",
+    "type": "single",
+    "stem": "计算“连续 7 日活跃用户”时，用窗口函数实现连续性判断的经典思路是？",
+    "options": [
+      {"key": "A", "text": "按用户分组对活跃日期排序生成行号，用 日期 - 行号 作为分组键，同组即为连续区间，再统计区间长度 ≥ 7 的用户"},
+      {"key": "B", "text": "对全表做 7 次自连接，每次偏移一天"},
+      {"key": "C", "text": "把日期转成字符串后模糊匹配"},
+      {"key": "D", "text": "SQL 无法计算连续活跃，只能用 Python"}
+    ],
+    "answer": ["A"],
+    "explanation": "这是“连续问题”的经典解法：ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY dt) 得到 rn，连续日期序列的 dt - rn 是常量，据此 GROUP BY user_id, (dt - rn) 统计每段连续天数。B 的多重自连接可行但代价高、不易扩展到任意 N 天；C 不可靠；D 错误，窗口函数完全胜任。此题是数仓 SQL 面试高频题。",
+    "tags": ["SQL分析", "窗口函数"],
+    "difficulty": "hard",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-15",
+    "slug": "question-15",
+    "type": "multiple",
+    "stem": "关于维度表设计，下列做法合理的有？（多选）",
+    "options": [
+      {"key": "A", "text": "使用无业务含义的代理键（Surrogate Key）作为维度表主键"},
+      {"key": "B", "text": "为“未知/缺失”的维度成员预留默认行（如 -1），避免事实表出现空外键"},
+      {"key": "C", "text": "日期维度表预先生成，包含年、季、月、周、是否节假日等丰富属性"},
+      {"key": "D", "text": "把销售金额等度量值存进维度表"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "代理键隔离源系统主键变化并支撑 SCD2 多版本（A）；默认成员行保证事实表外键完整性、避免内连接丢数（B）；日期维度是最典型的预生成维度，丰富的日历属性让时间分析无需临时计算（C）。D 违背职责分离：度量属于事实表，维度表存描述性属性。",
+    "tags": ["维度建模", "维度表"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-16",
+    "slug": "question-16",
+    "type": "multiple",
+    "stem": "以下哪些属于优秀 BI 看板（Dashboard）的设计原则？（多选）",
+    "options": [
+      {"key": "A", "text": "核心指标放在最显眼位置，信息层级清晰（总览 → 维度拆解 → 明细）"},
+      {"key": "B", "text": "图表类型与数据关系匹配：趋势用折线、构成用堆积/饼、对比用条形"},
+      {"key": "C", "text": "为看板明确目标受众与要回答的业务问题，而不是堆砌所有图表"},
+      {"key": "D", "text": "尽可能在一屏塞入 50 个以上图表，信息越多越好"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "好看板遵循金字塔式信息架构（A）、图表语义匹配（B）、以业务问题为导向（C），并保持配色克制、口径标注清晰。D 是反模式：图表过载让用户抓不住重点，产生认知负担，关键异常反而被淹没。“少即是多”是仪表盘设计的基本共识。",
+    "tags": ["BI", "数据看板"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-17",
+    "slug": "question-17",
+    "type": "multiple",
+    "stem": "关于数仓分层的价值，下列说法正确的有？（多选）",
+    "options": [
+      {"key": "A", "text": "复用中间层结果，避免每个需求都从原始数据重新计算"},
+      {"key": "B", "text": "上游源系统变更时，只需调整贴源/明细层的适配逻辑，隔离对下游的冲击"},
+      {"key": "C", "text": "清晰的血缘链路便于数据质量问题的定位与回溯"},
+      {"key": "D", "text": "分层的唯一目的是增加表的数量，层数越多越规范"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "分层带来复用（A）、解耦隔离变更（B）、可追溯的血缘与职责边界（C），还统一了命名与口径规范。D 错误：分层本身有存储与时效成本，层级应服务于实际需要，过度分层导致链路冗长、数据延迟增加，同样是治理问题。",
+    "tags": ["数仓分层"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-18",
+    "slug": "question-18",
+    "type": "multiple",
+    "stem": "星型模型相比雪花模型的特点，下列说法正确的有？（多选）",
+    "options": [
+      {"key": "A", "text": "维度表反规范化，查询关联的表更少，性能与易用性通常更好"},
+      {"key": "B", "text": "存在一定数据冗余，存储开销略高，且维度属性更新时需维护冗余"},
+      {"key": "C", "text": "BI 分析场景中通常推荐优先采用星型模型"},
+      {"key": "D", "text": "星型模型把每个维度层级都拆成独立的表"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "星型模型用冗余换取查询简单与性能（A、B 是同一枚硬币的两面）；在列式存储+压缩普及的现代数仓中冗余成本更低，Kimball 与主流实践都推荐星型优先（C）。D 描述的是雪花模型——把类目→品类→部门等层级规范化拆表，减少冗余但加深关联链路。",
+    "tags": ["星型模型", "维度建模"],
+    "difficulty": "hard",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-19",
+    "slug": "question-19",
+    "type": "judge",
+    "stem": "判断：数据仓库中的数据通常按批次定期加载，历史数据一般不做频繁的行级更新，这与 OLTP 数据库的高频增删改形成对比。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。数仓的“非易失性”特征：数据经 ETL 批量（或准实时）载入后主要用于读取分析，历史分区基本只追加或整体重刷，极少行级 UPDATE/DELETE。这一访问模式使数仓可以采用列式存储、大块压缩、分区裁剪等面向扫描优化的技术，而 OLTP 数据库则围绕行级事务与索引点查优化。",
+    "tags": ["数据仓库"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-20",
+    "slug": "question-20",
+    "type": "judge",
+    "stem": "判断：同一公司内，“销售额”在不同报表中可以随意采用不同口径，只要每张报表自己内部一致即可。",
+    "options": [],
+    "answer": ["F"],
+    "explanation": "错误。跨报表口径不一致会导致数字互相矛盾，管理层对数据失去信任，是 BI 建设失败的最常见原因之一。正确做法是建立企业级指标字典/语义层：原子指标（销售额）+ 业务限定（剔除退款）+ 统计周期（自然日）统一定义，各报表引用同一口径；确需差异时必须显式命名区分（如“含退款销售额”）并标注说明。",
+    "tags": ["指标体系", "数据治理"],
+    "difficulty": "easy",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-21",
+    "slug": "question-21",
+    "type": "judge",
+    "stem": "判断：SQL 窗口函数 ROW_NUMBER、RANK、DENSE_RANK 对并列值的处理不同：RANK 会跳号，DENSE_RANK 不跳号，ROW_NUMBER 强制生成不重复的连续序号。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。对排序值 100、100、90：ROW_NUMBER 给 1、2、3（并列也强分先后）；RANK 给 1、1、3（并列同名次，下一名跳号）；DENSE_RANK 给 1、1、2（并列同名次，不跳号）。三者区别是 SQL 面试的高频考点，取 TopN 时应根据业务对并列的处理要求选择合适的函数。",
+    "tags": ["SQL分析", "窗口函数"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-22",
+    "slug": "question-22",
+    "type": "judge",
+    "stem": "判断：事实表中“账户余额”这类半可加事实，可以跨账户维度求和，但不能跨时间维度直接求和。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。余额、库存量等状态型度量是半可加事实：同一时点跨账户/仓库求和有意义（全行总余额），但把一个账户 30 天的每日余额加起来毫无业务含义——跨时间应取期末值、平均值等。完全可加事实（金额、数量）可沿任意维度求和；完全不可加事实（比率、百分比）任何维度都不能直接求和，应先加总分子分母再计算。",
+    "tags": ["事实表", "半可加事实"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-23",
+    "slug": "question-23",
+    "type": "short",
+    "stem": "维度建模中，为维度表引入的、与业务无关的自增整数主键（区别于源系统的自然键）称为什么键？（中文或英文均可）",
+    "options": [],
+    "answer": ["代理键|surrogate key|Surrogate Key|代理主键"],
+    "explanation": "答案：代理键（Surrogate Key）。它由数仓自行分配（自增整数或序列），与源系统业务主键（自然键）解耦。价值在于：支持 SCD Type 2 同一自然键多版本共存、屏蔽源系统主键变更或多源冲突、整数键关联性能好且节省事实表存储。事实表外键应引用代理键而非自然键。",
+    "tags": ["维度建模", "代理键"],
+    "difficulty": "medium",
+    "chapter": "mod-data-warehouse-bi-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-data-warehouse-bi-q-24",
+    "slug": "question-24",
+    "type": "short",
+    "stem": "数仓分层中，直接对接源系统、以近乎原样方式保留原始数据的贴源层，通常用哪个三字母英文缩写表示？",
+    "options": [],
+    "answer": ["ODS|ods"],
+    "explanation": "答案：ODS（Operational Data Store，贴源层/操作数据层）。它以最小加工原则同步业务库、日志等源数据，保留原始形态（常加上采集时间、来源等审计字段），作为数仓的数据备份与追溯基础。下游 DWD 层再做清洗、去重、标准化。保持 ODS 贴源的意义在于：口径问题可回溯到最原始状态重新加工。",
+    "tags": ["数仓分层", "ODS"],
+    "difficulty": "hard",
+    "chapter": "mod-data-warehouse-bi-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
   }
 ]

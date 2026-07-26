@@ -5,11 +5,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002752",
-      "dw-q-001176",
-      "dw-q-000997"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -29,11 +25,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001494",
-      "dw-q-003200",
-      "dw-q-003075"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -53,11 +45,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000252",
-      "dw-q-002041",
-      "dw-q-002133"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -77,11 +65,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002407",
-      "dw-q-001024",
-      "dw-q-003157"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -101,11 +85,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000754",
-      "dw-q-000275",
-      "dw-q-003492"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -125,11 +105,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002406",
-      "dw-q-002318",
-      "dw-q-003414"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -149,11 +125,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001191",
-      "dw-q-001725",
-      "dw-q-000392"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -173,11 +145,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002948",
-      "dw-q-001232",
-      "dw-q-000541"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -197,11 +165,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001684",
-      "dw-q-001632",
-      "dw-q-001864"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -221,11 +185,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001647",
-      "dw-q-003098",
-      "dw-q-003590"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -245,11 +205,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000053",
-      "dw-q-002231",
-      "dw-q-000528"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -269,11 +225,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002494",
-      "dw-q-002941",
-      "dw-q-002368"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -293,11 +245,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000278",
-      "dw-q-000769",
-      "dw-q-002847"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -317,11 +265,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002479",
-      "dw-q-003476",
-      "dw-q-003209"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -341,11 +285,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003300",
-      "dw-q-001158",
-      "dw-q-000209"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -365,11 +305,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000360",
-      "dw-q-003513",
-      "dw-q-002449"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -389,11 +325,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001230",
-      "dw-q-002921",
-      "dw-q-002199"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -413,11 +345,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002570",
-      "dw-q-002584",
-      "dw-q-000766"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -437,11 +365,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000393",
-      "dw-q-002085",
-      "dw-q-000919"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -461,11 +385,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001021",
-      "dw-q-003307",
-      "dw-q-002852"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -485,11 +405,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002368",
-      "dw-q-002904",
-      "dw-q-000264"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -509,11 +425,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000639",
-      "dw-q-001811",
-      "dw-q-001820"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -533,11 +445,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002291",
-      "dw-q-000180",
-      "dw-q-003546"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -557,11 +465,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001808",
-      "dw-q-002956",
-      "dw-q-001975"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -581,11 +485,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002742",
-      "dw-q-000197",
-      "dw-q-003403"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -605,11 +505,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001961",
-      "dw-q-001841",
-      "dw-q-003000"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -629,11 +525,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000888",
-      "dw-q-002725",
-      "dw-q-003549"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -653,11 +545,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002534",
-      "dw-q-002936",
-      "dw-q-003645"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -677,11 +565,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000487",
-      "dw-q-000073",
-      "dw-q-001520"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -701,11 +585,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001940",
-      "dw-q-001618",
-      "dw-q-002620"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -725,11 +605,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002051",
-      "dw-q-002021",
-      "dw-q-003158"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -749,11 +625,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001688",
-      "dw-q-002046",
-      "dw-q-000909"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -773,11 +645,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002347",
-      "dw-q-000036",
-      "dw-q-000913"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -797,11 +665,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001424",
-      "dw-q-002798",
-      "dw-q-003228"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -821,11 +685,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003540",
-      "dw-q-000753",
-      "dw-q-000826"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -845,11 +705,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003454",
-      "dw-q-002860",
-      "dw-q-001390"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -869,11 +725,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000596",
-      "dw-q-000906",
-      "dw-q-002261"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -893,11 +745,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002337",
-      "dw-q-001633",
-      "dw-q-000808"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -917,11 +765,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003543",
-      "dw-q-000622",
-      "dw-q-000257"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -941,11 +785,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002590",
-      "dw-q-001952",
-      "dw-q-001618"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -965,11 +805,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001037",
-      "dw-q-003600",
-      "dw-q-001373"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -989,11 +825,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003215",
-      "dw-q-002920",
-      "dw-q-001211"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -1013,11 +845,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000137",
-      "dw-q-001669",
-      "dw-q-001963"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -1037,11 +865,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002781",
-      "dw-q-003389",
-      "dw-q-002345"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -1061,11 +885,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001985",
-      "dw-q-002073",
-      "dw-q-000652"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -1085,11 +905,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001650",
-      "dw-q-000339",
-      "dw-q-002308"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -1109,11 +925,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003360",
-      "dw-q-001746",
-      "dw-q-002487"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -1133,11 +945,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002680",
-      "dw-q-002517",
-      "dw-q-001868"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -1157,11 +965,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002053",
-      "dw-q-001792",
-      "dw-q-000126"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -1181,11 +985,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002486",
-      "dw-q-002421",
-      "dw-q-003528"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -1205,11 +1005,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002126",
-      "dw-q-000162",
-      "dw-q-000494"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -1229,11 +1025,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002303",
-      "dw-q-001566",
-      "dw-q-002885"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -1253,11 +1045,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002136",
-      "dw-q-001446",
-      "dw-q-000482"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -1277,11 +1065,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000104",
-      "dw-q-000833",
-      "dw-q-002234"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -1301,11 +1085,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002258",
-      "dw-q-001968",
-      "dw-q-002911"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -1325,11 +1105,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002733",
-      "dw-q-002205",
-      "dw-q-002155"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -1349,11 +1125,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001419",
-      "dw-q-001203",
-      "dw-q-002248"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -1373,11 +1145,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003384",
-      "dw-q-001549",
-      "dw-q-000534"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -1397,11 +1165,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001340",
-      "dw-q-003085",
-      "dw-q-000230"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -1421,11 +1185,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001304",
-      "dw-q-001472",
-      "dw-q-000352"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -1445,11 +1205,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001166",
-      "dw-q-003121",
-      "dw-q-001108"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -1469,11 +1225,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000983",
-      "dw-q-003029",
-      "dw-q-002759"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -1493,11 +1245,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002070",
-      "dw-q-001168",
-      "dw-q-001246"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -1517,11 +1265,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001544",
-      "dw-q-001702",
-      "dw-q-001908"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -1541,11 +1285,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000152",
-      "dw-q-001671",
-      "dw-q-000758"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -1565,11 +1305,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000899",
-      "dw-q-002113",
-      "dw-q-002206"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -1589,11 +1325,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001976",
-      "dw-q-003153",
-      "dw-q-001760"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -1613,11 +1345,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000487",
-      "dw-q-001548",
-      "dw-q-003347"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -1637,11 +1365,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000849",
-      "dw-q-003330",
-      "dw-q-003007"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -1661,11 +1385,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002783",
-      "dw-q-001207",
-      "dw-q-002563"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -1685,11 +1405,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001016",
-      "dw-q-002866",
-      "dw-q-001757"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -1709,11 +1425,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001770",
-      "dw-q-001096",
-      "dw-q-000141"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -1733,11 +1445,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001047",
-      "dw-q-003073",
-      "dw-q-002809"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -1757,11 +1465,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-002465",
-      "dw-q-003367",
-      "dw-q-002626"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -1781,11 +1485,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001834",
-      "dw-q-001693",
-      "dw-q-000503"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -1805,11 +1505,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-001408",
-      "dw-q-000431",
-      "dw-q-002552"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -1829,11 +1525,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000627",
-      "dw-q-002723",
-      "dw-q-000077"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -1853,11 +1545,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000279",
-      "dw-q-002976",
-      "dw-q-001330"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -1877,11 +1565,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-003130",
-      "dw-q-002760",
-      "dw-q-003577"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -1901,11 +1585,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "dw-q-000870",
-      "dw-q-003693",
-      "dw-q-002714"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -1925,11 +1605,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003295",
-      "dw-q-002281",
-      "dw-q-000435"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -1949,11 +1625,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002735",
-      "dw-q-003507",
-      "dw-q-002415"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -1973,11 +1645,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002602",
-      "dw-q-000807",
-      "dw-q-000830"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -1997,11 +1665,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001442",
-      "dw-q-001437",
-      "dw-q-002040"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -2021,11 +1685,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001554",
-      "dw-q-003530",
-      "dw-q-000951"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -2045,11 +1705,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002294",
-      "dw-q-001640",
-      "dw-q-002394"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -2069,11 +1725,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003206",
-      "dw-q-000583",
-      "dw-q-002607"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -2093,11 +1745,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002376",
-      "dw-q-003490",
-      "dw-q-001007"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -2117,11 +1765,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001918",
-      "dw-q-001957",
-      "dw-q-002501"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -2141,11 +1785,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002312",
-      "dw-q-001404",
-      "dw-q-001896"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -2165,11 +1805,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001627",
-      "dw-q-003614",
-      "dw-q-000662"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -2189,11 +1825,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003253",
-      "dw-q-000893",
-      "dw-q-003137"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -2213,11 +1845,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002350",
-      "dw-q-002025",
-      "dw-q-002687"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -2237,11 +1865,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003237",
-      "dw-q-001358",
-      "dw-q-001010"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -2261,11 +1885,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000281",
-      "dw-q-001820",
-      "dw-q-001839"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -2285,11 +1905,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002143",
-      "dw-q-002647",
-      "dw-q-003362"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -2309,11 +1925,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000935",
-      "dw-q-002179",
-      "dw-q-001924"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -2333,11 +1945,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000730",
-      "dw-q-001245",
-      "dw-q-001990"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -2357,11 +1965,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002662",
-      "dw-q-000874",
-      "dw-q-000296"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -2381,11 +1985,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002947",
-      "dw-q-000266",
-      "dw-q-000810"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -2405,11 +2005,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002307",
-      "dw-q-003068",
-      "dw-q-003073"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -2429,11 +2025,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001579",
-      "dw-q-002022",
-      "dw-q-001013"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -2453,11 +2045,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003418",
-      "dw-q-000291",
-      "dw-q-002284"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -2477,11 +2065,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003363",
-      "dw-q-001087",
-      "dw-q-000638"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -2501,11 +2085,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001612",
-      "dw-q-002436",
-      "dw-q-000382"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -2525,11 +2105,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001030",
-      "dw-q-002699",
-      "dw-q-001110"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -2549,11 +2125,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002588",
-      "dw-q-000616",
-      "dw-q-002098"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -2573,11 +2145,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000282",
-      "dw-q-002023",
-      "dw-q-000707"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -2597,11 +2165,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001924",
-      "dw-q-002819",
-      "dw-q-002567"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -2621,11 +2185,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002108",
-      "dw-q-001930",
-      "dw-q-000186"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -2645,11 +2205,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000971",
-      "dw-q-002075",
-      "dw-q-002940"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -2669,11 +2225,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001624",
-      "dw-q-001087",
-      "dw-q-000238"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -2693,11 +2245,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001444",
-      "dw-q-002072",
-      "dw-q-003241"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -2717,11 +2265,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000060",
-      "dw-q-000617",
-      "dw-q-000023"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -2741,11 +2285,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001010",
-      "dw-q-001589",
-      "dw-q-000303"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -2765,11 +2305,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002960",
-      "dw-q-001796",
-      "dw-q-001699"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -2789,11 +2325,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000317",
-      "dw-q-000508",
-      "dw-q-000566"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -2813,11 +2345,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002452",
-      "dw-q-000332",
-      "dw-q-002792"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -2837,11 +2365,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000499",
-      "dw-q-003316",
-      "dw-q-002509"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -2861,11 +2385,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003516",
-      "dw-q-003694",
-      "dw-q-000271"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -2885,11 +2405,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000287",
-      "dw-q-001490",
-      "dw-q-003097"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -2909,11 +2425,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000856",
-      "dw-q-001233",
-      "dw-q-002666"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -2933,11 +2445,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002994",
-      "dw-q-000212",
-      "dw-q-003023"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -2957,11 +2465,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002314",
-      "dw-q-001996",
-      "dw-q-003301"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -2981,11 +2485,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001615",
-      "dw-q-001353",
-      "dw-q-003606"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -3005,11 +2505,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003260",
-      "dw-q-000045",
-      "dw-q-000997"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -3029,11 +2525,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002121",
-      "dw-q-002682",
-      "dw-q-001235"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -3053,11 +2545,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002507",
-      "dw-q-000420",
-      "dw-q-000542"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -3077,11 +2565,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002951",
-      "dw-q-002338",
-      "dw-q-003131"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -3101,11 +2585,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001671",
-      "dw-q-002362",
-      "dw-q-000462"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -3125,11 +2605,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002325",
-      "dw-q-001191",
-      "dw-q-000279"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -3149,11 +2625,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001964",
-      "dw-q-003301",
-      "dw-q-000352"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -3173,11 +2645,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002284",
-      "dw-q-003444",
-      "dw-q-001416"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -3197,11 +2665,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001829",
-      "dw-q-001963",
-      "dw-q-001923"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -3221,11 +2685,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-002571",
-      "dw-q-001229",
-      "dw-q-001878"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -3245,11 +2705,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000820",
-      "dw-q-002732",
-      "dw-q-000872"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -3269,11 +2725,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003181",
-      "dw-q-003576",
-      "dw-q-002566"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -3293,11 +2745,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000071",
-      "dw-q-002961",
-      "dw-q-000031"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -3317,11 +2765,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000672",
-      "dw-q-002909",
-      "dw-q-003527"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -3341,11 +2785,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001474",
-      "dw-q-001679",
-      "dw-q-000827"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -3365,11 +2805,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000335",
-      "dw-q-000699",
-      "dw-q-002576"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -3389,11 +2825,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000020",
-      "dw-q-003429",
-      "dw-q-002007"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -3413,11 +2845,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001917",
-      "dw-q-000210",
-      "dw-q-003451"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -3437,11 +2865,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003025",
-      "dw-q-001896",
-      "dw-q-000838"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -3461,11 +2885,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000613",
-      "dw-q-003393",
-      "dw-q-000827"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -3485,11 +2905,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001627",
-      "dw-q-000916",
-      "dw-q-003548"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -3509,11 +2925,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001108",
-      "dw-q-002685",
-      "dw-q-001540"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -3533,11 +2945,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001441",
-      "dw-q-002601",
-      "dw-q-001836"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -3557,11 +2965,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-003219",
-      "dw-q-002835",
-      "dw-q-000345"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -3581,11 +2985,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001386",
-      "dw-q-001721",
-      "dw-q-002787"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -3605,11 +3005,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001860",
-      "dw-q-001379",
-      "dw-q-003378"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -3629,11 +3025,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000381",
-      "dw-q-002946",
-      "dw-q-002183"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -3653,11 +3045,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000365",
-      "dw-q-001797",
-      "dw-q-001742"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -3677,11 +3065,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001041",
-      "dw-q-001224",
-      "dw-q-000161"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -3701,11 +3085,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000498",
-      "dw-q-001937",
-      "dw-q-000202"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -3725,11 +3105,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000209",
-      "dw-q-001068",
-      "dw-q-001085"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -3749,11 +3125,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001258",
-      "dw-q-001287",
-      "dw-q-003551"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -3773,11 +3145,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001001",
-      "dw-q-001566",
-      "dw-q-003561"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -3797,11 +3165,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-001619",
-      "dw-q-002182",
-      "dw-q-001604"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -3821,11 +3185,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "dw-q-000321",
-      "dw-q-000546",
-      "dw-q-000841"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -3845,11 +3205,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001926",
-      "dw-q-001076",
-      "dw-q-000803"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -3869,11 +3225,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001989",
-      "dw-q-001120",
-      "dw-q-000600"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -3893,11 +3245,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001452",
-      "dw-q-001830",
-      "dw-q-000716"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -3917,11 +3265,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000861",
-      "dw-q-001701",
-      "dw-q-001949"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -3941,11 +3285,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001828",
-      "dw-q-003287",
-      "dw-q-000828"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -3965,11 +3305,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000878",
-      "dw-q-000434",
-      "dw-q-001527"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -3989,11 +3325,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001865",
-      "dw-q-002478",
-      "dw-q-000940"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -4013,11 +3345,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000377",
-      "dw-q-003087",
-      "dw-q-001920"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -4037,11 +3365,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002262",
-      "dw-q-002067",
-      "dw-q-001965"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -4061,11 +3385,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001540",
-      "dw-q-002218",
-      "dw-q-003099"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -4085,11 +3405,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002948",
-      "dw-q-002582",
-      "dw-q-002997"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -4109,11 +3425,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002645",
-      "dw-q-000864",
-      "dw-q-003197"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -4133,11 +3445,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002646",
-      "dw-q-002133",
-      "dw-q-001579"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -4157,11 +3465,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000029",
-      "dw-q-000454",
-      "dw-q-001207"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -4181,11 +3485,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000169",
-      "dw-q-002145",
-      "dw-q-000249"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -4205,11 +3505,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002542",
-      "dw-q-002534",
-      "dw-q-003678"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -4229,11 +3525,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002563",
-      "dw-q-003278",
-      "dw-q-001944"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -4253,11 +3545,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002863",
-      "dw-q-001486",
-      "dw-q-000562"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -4277,11 +3565,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002210",
-      "dw-q-000096",
-      "dw-q-003486"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -4301,11 +3585,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002431",
-      "dw-q-001241",
-      "dw-q-000698"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -4325,11 +3605,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003009",
-      "dw-q-000089",
-      "dw-q-001969"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -4349,11 +3625,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000105",
-      "dw-q-000014",
-      "dw-q-003122"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -4373,11 +3645,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000723",
-      "dw-q-001633",
-      "dw-q-003072"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -4397,11 +3665,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003563",
-      "dw-q-001003",
-      "dw-q-002896"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -4421,11 +3685,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001083",
-      "dw-q-001162",
-      "dw-q-001096"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -4445,11 +3705,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000964",
-      "dw-q-000721",
-      "dw-q-003375"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -4469,11 +3725,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000571",
-      "dw-q-003676",
-      "dw-q-003562"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -4493,11 +3745,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002292",
-      "dw-q-000286",
-      "dw-q-002918"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -4517,11 +3765,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003686",
-      "dw-q-000268",
-      "dw-q-001596"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -4541,11 +3785,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001286",
-      "dw-q-000747",
-      "dw-q-003487"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -4565,11 +3805,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003094",
-      "dw-q-002793",
-      "dw-q-003181"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -4589,11 +3825,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002754",
-      "dw-q-002463",
-      "dw-q-000461"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -4613,11 +3845,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002513",
-      "dw-q-002746",
-      "dw-q-001522"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -4637,11 +3865,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000131",
-      "dw-q-001670",
-      "dw-q-002646"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -4661,11 +3885,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002130",
-      "dw-q-001578",
-      "dw-q-003284"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -4685,11 +3905,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001219",
-      "dw-q-001269",
-      "dw-q-002825"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -4709,11 +3925,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000626",
-      "dw-q-003666",
-      "dw-q-003499"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -4733,11 +3945,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000957",
-      "dw-q-002501",
-      "dw-q-002099"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -4757,11 +3965,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001174",
-      "dw-q-001458",
-      "dw-q-003558"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -4781,11 +3985,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002656",
-      "dw-q-003151",
-      "dw-q-000955"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -4805,11 +4005,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002497",
-      "dw-q-001439",
-      "dw-q-000462"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -4829,11 +4025,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002800",
-      "dw-q-000139",
-      "dw-q-002369"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -4853,11 +4045,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003581",
-      "dw-q-002897",
-      "dw-q-000785"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -4877,11 +4065,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001385",
-      "dw-q-002006",
-      "dw-q-000104"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -4901,11 +4085,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002128",
-      "dw-q-000196",
-      "dw-q-001637"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -4925,11 +4105,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000523",
-      "dw-q-001549",
-      "dw-q-000026"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -4949,11 +4125,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000192",
-      "dw-q-000424",
-      "dw-q-001373"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -4973,11 +4145,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000093",
-      "dw-q-002768",
-      "dw-q-003532"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -4997,11 +4165,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003695",
-      "dw-q-000409",
-      "dw-q-001077"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -5021,11 +4185,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000090",
-      "dw-q-002025",
-      "dw-q-001104"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -5045,11 +4205,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002433",
-      "dw-q-000370",
-      "dw-q-000667"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -5069,11 +4225,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001720",
-      "dw-q-003296",
-      "dw-q-001362"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -5093,11 +4245,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002358",
-      "dw-q-003069",
-      "dw-q-002348"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -5117,11 +4265,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002177",
-      "dw-q-001363",
-      "dw-q-001858"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -5141,11 +4285,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001379",
-      "dw-q-003376",
-      "dw-q-001994"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -5165,11 +4305,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000831",
-      "dw-q-000252",
-      "dw-q-001082"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -5189,11 +4325,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003068",
-      "dw-q-002654",
-      "dw-q-003568"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -5213,11 +4345,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002578",
-      "dw-q-000319",
-      "dw-q-000186"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -5237,11 +4365,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003232",
-      "dw-q-000866",
-      "dw-q-003066"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -5261,11 +4385,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002443",
-      "dw-q-002038",
-      "dw-q-003630"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -5285,11 +4405,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002955",
-      "dw-q-000086",
-      "dw-q-001436"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -5309,11 +4425,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001559",
-      "dw-q-003160",
-      "dw-q-002490"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -5333,11 +4445,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000821",
-      "dw-q-000144",
-      "dw-q-000497"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -5357,11 +4465,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000976",
-      "dw-q-001567",
-      "dw-q-002549"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -5381,11 +4485,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001069",
-      "dw-q-003441",
-      "dw-q-002777"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -5405,11 +4505,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002887",
-      "dw-q-002920",
-      "dw-q-000994"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -5429,11 +4525,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001704",
-      "dw-q-000947",
-      "dw-q-000784"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -5453,11 +4545,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001169",
-      "dw-q-000324",
-      "dw-q-000005"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -5477,11 +4565,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003368",
-      "dw-q-002615",
-      "dw-q-003627"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -5501,11 +4585,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003259",
-      "dw-q-001245",
-      "dw-q-000012"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -5525,11 +4605,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000645",
-      "dw-q-001236",
-      "dw-q-002013"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -5549,11 +4625,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000384",
-      "dw-q-002889",
-      "dw-q-002050"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -5573,11 +4645,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003088",
-      "dw-q-000819",
-      "dw-q-003010"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -5597,11 +4665,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002147",
-      "dw-q-001917",
-      "dw-q-003135"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -5621,11 +4685,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000322",
-      "dw-q-000167",
-      "dw-q-002842"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -5645,11 +4705,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003352",
-      "dw-q-002734",
-      "dw-q-003203"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -5669,11 +4725,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000984",
-      "dw-q-001519",
-      "dw-q-000060"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -5693,11 +4745,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001520",
-      "dw-q-000857",
-      "dw-q-000070"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -5717,11 +4765,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002091",
-      "dw-q-002682",
-      "dw-q-001648"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -5741,11 +4785,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003019",
-      "dw-q-000409",
-      "dw-q-002163"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -5765,11 +4805,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000745",
-      "dw-q-000847",
-      "dw-q-003311"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -5789,11 +4825,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003106",
-      "dw-q-003625",
-      "dw-q-000079"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],
@@ -5813,11 +4845,7 @@
     "description": "通过留存率掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000569",
-      "dw-q-002685",
-      "dw-q-003367"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "留存率"
     ],
@@ -5837,11 +4865,7 @@
     "description": "通过转化漏斗掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002738",
-      "dw-q-000372",
-      "dw-q-002834"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "转化漏斗"
     ],
@@ -5861,11 +4885,7 @@
     "description": "通过复购分析掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002225",
-      "dw-q-002388",
-      "dw-q-001044"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "复购分析"
     ],
@@ -5885,11 +4905,7 @@
     "description": "通过拉链表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001929",
-      "dw-q-001530",
-      "dw-q-000202"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "拉链表"
     ],
@@ -5909,11 +4925,7 @@
     "description": "通过快照表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001294",
-      "dw-q-002246",
-      "dw-q-000388"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "快照表"
     ],
@@ -5933,11 +4945,7 @@
     "description": "通过ADS报表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002839",
-      "dw-q-003694",
-      "dw-q-003193"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "ADS报表"
     ],
@@ -5957,11 +4965,7 @@
     "description": "通过BI看板掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002783",
-      "dw-q-000894",
-      "dw-q-001451"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "BI看板"
     ],
@@ -5981,11 +4985,7 @@
     "description": "通过口径冲突掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001922",
-      "dw-q-002936",
-      "dw-q-002967"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "口径冲突"
     ],
@@ -6005,11 +5005,7 @@
     "description": "通过质量排查掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001620",
-      "dw-q-001940",
-      "dw-q-003572"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "质量排查"
     ],
@@ -6029,11 +5025,7 @@
     "description": "通过DW面试掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002628",
-      "dw-q-001574",
-      "dw-q-001515"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "DW面试"
     ],
@@ -6053,11 +5045,7 @@
     "description": "通过电商DW掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-003302",
-      "dw-q-003490",
-      "dw-q-002664"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "电商DW"
     ],
@@ -6077,11 +5065,7 @@
     "description": "通过用户建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001937",
-      "dw-q-003352",
-      "dw-q-003483"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户建模"
     ],
@@ -6101,11 +5085,7 @@
     "description": "通过订单建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002447",
-      "dw-q-002808",
-      "dw-q-000548"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单建模"
     ],
@@ -6125,11 +5105,7 @@
     "description": "通过商品建模掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000950",
-      "dw-q-001077",
-      "dw-q-002956"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品建模"
     ],
@@ -6149,11 +5125,7 @@
     "description": "通过交易事实表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-001151",
-      "dw-q-003018",
-      "dw-q-003268"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "交易事实表"
     ],
@@ -6173,11 +5145,7 @@
     "description": "通过用户维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002227",
-      "dw-q-003515",
-      "dw-q-001965"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户维度表"
     ],
@@ -6197,11 +5165,7 @@
     "description": "通过日期维度表掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-002917",
-      "dw-q-002937",
-      "dw-q-000841"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "日期维度表"
     ],
@@ -6221,11 +5185,7 @@
     "description": "通过GMV指标掌握DW",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "dw-q-000454",
-      "dw-q-000842",
-      "dw-q-002296"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "GMV指标"
     ],

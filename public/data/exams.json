@@ -1,9 +1,9 @@
 [
   {
     "id": "mod-data-warehouse-bi-exam-1",
-    "slug": "final-exam",
-    "title": "数据仓库与BI分析 核心期末综合自测",
-    "summary": "全面检验您对 数据仓库与BI分析 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "数据仓库与BI分析 基础入门测验",
+    "summary": "覆盖数仓定义、事实表与维度表、分层架构与看板设计基础的入门自测。",
     "difficulty": "easy",
     "questionIds": [
       "mod-data-warehouse-bi-q-1",
@@ -11,21 +11,54 @@
       "mod-data-warehouse-bi-q-3",
       "mod-data-warehouse-bi-q-4",
       "mod-data-warehouse-bi-q-5",
-      "mod-data-warehouse-bi-q-6"
+      "mod-data-warehouse-bi-q-6",
+      "mod-data-warehouse-bi-q-16",
+      "mod-data-warehouse-bi-q-19",
+      "mod-data-warehouse-bi-q-20"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-data-warehouse-bi-exam-2",
-    "slug": "basic-exam",
-    "title": "数据仓库与BI分析 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "数据仓库与BI分析 进阶强化测验",
+    "summary": "聚焦维度建模四步法、缓慢变化维、窗口函数与指标口径治理的进阶训练。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-data-warehouse-bi-q-1",
-      "mod-data-warehouse-bi-q-2",
-      "mod-data-warehouse-bi-q-3"
+      "mod-data-warehouse-bi-q-7",
+      "mod-data-warehouse-bi-q-8",
+      "mod-data-warehouse-bi-q-9",
+      "mod-data-warehouse-bi-q-10",
+      "mod-data-warehouse-bi-q-11",
+      "mod-data-warehouse-bi-q-12",
+      "mod-data-warehouse-bi-q-15",
+      "mod-data-warehouse-bi-q-17",
+      "mod-data-warehouse-bi-q-21",
+      "mod-data-warehouse-bi-q-23"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-data-warehouse-bi-exam-3",
+    "slug": "final-exam",
+    "title": "数据仓库与BI分析 综合模拟考试",
+    "summary": "从建模粒度陷阱、连续活跃 SQL 到半可加事实的全面综合模拟考试。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-data-warehouse-bi-q-4",
+      "mod-data-warehouse-bi-q-7",
+      "mod-data-warehouse-bi-q-8",
+      "mod-data-warehouse-bi-q-10",
+      "mod-data-warehouse-bi-q-13",
+      "mod-data-warehouse-bi-q-14",
+      "mod-data-warehouse-bi-q-15",
+      "mod-data-warehouse-bi-q-18",
+      "mod-data-warehouse-bi-q-21",
+      "mod-data-warehouse-bi-q-22",
+      "mod-data-warehouse-bi-q-23",
+      "mod-data-warehouse-bi-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
