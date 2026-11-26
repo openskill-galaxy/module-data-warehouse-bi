@@ -1,71 +1,63 @@
 [
   {
     "id": "mod-data-warehouse-bi-c-1",
-    "title": "数据仓库与BI分析 架构原理与初始化",
+    "title": "区分事务查询与分析查询 / 数仓分层与原始数据",
     "slug": "course-1",
-    "summary": "深度探索 数据仓库与BI分析 的设计理念、运行架构以及初始化配置引导。",
+    "summary": "例题研习覆盖数据仓库、OLAP、数仓分层、ODS。",
     "order": 1,
     "difficulty": "easy",
-    "estimatedHours": 57,
+    "estimatedHours": 0.3,
     "lessons": [
       "mod-data-warehouse-bi-l-1",
       "mod-data-warehouse-bi-l-2"
     ],
     "tags": [
       "数据仓库",
-      "BI",
-      "维度建模",
-      "事实表",
-      "维度表",
-      "指标体系",
-      "数据看板",
-      "SQL分析"
+      "OLAP",
+      "数仓分层",
+      "ODS"
     ]
   },
   {
     "id": "mod-data-warehouse-bi-c-2",
-    "title": "数据仓库与BI分析 核心机制与开发实战",
+    "title": "事实表与粒度 / 星型模型与缓慢变化维",
     "slug": "course-2",
-    "summary": "掌握 数据仓库与BI分析 的核心组件、API 接口调用以及本地开发调试。",
+    "summary": "例题研习覆盖维度建模、事实表、粒度、星型模型、缓慢变化维。",
     "order": 2,
     "difficulty": "easy",
-    "estimatedHours": 57,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-data-warehouse-bi-l-3",
       "mod-data-warehouse-bi-l-4"
     ],
     "tags": [
-      "数据仓库",
-      "BI",
       "维度建模",
       "事实表",
-      "维度表",
-      "指标体系",
-      "数据看板",
-      "SQL分析"
+      "粒度",
+      "星型模型",
+      "缓慢变化维"
     ]
   },
   {
     "id": "mod-data-warehouse-bi-c-3",
-    "title": "数据仓库与BI分析 高级优化与生产部署",
+    "title": "聚合与窗口函数 / 指标口径与仪表板",
     "slug": "course-3",
-    "summary": "学习如何进行系统性能监控调优、高可用集群部署与数据存储。",
+    "summary": "例题研习覆盖SQL分析、聚合、窗口函数、指标体系、数据质量、BI、数据看板。",
     "order": 3,
     "difficulty": "easy",
-    "estimatedHours": 57,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-data-warehouse-bi-l-5",
       "mod-data-warehouse-bi-l-6"
     ],
     "tags": [
-      "数据仓库",
-      "BI",
-      "维度建模",
-      "事实表",
-      "维度表",
+      "SQL分析",
+      "聚合",
+      "窗口函数",
       "指标体系",
-      "数据看板",
-      "SQL分析"
+      "数据质量",
+      "BI",
+      "数据看板"
     ]
   }
 ]

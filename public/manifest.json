@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "数据仓库与BI分析",
+  "name": "OpenSkill Galaxy — 数据仓库与BI分析",
+  "description": "面向数据分析师BI报表开发和数据仓库入门学习者的DW分层维度建模事实表维度表指标体系SQL分析数据看板口径管理与项目实战。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-data-warehouse-bi/",
+  "scope": "/module-data-warehouse-bi/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }

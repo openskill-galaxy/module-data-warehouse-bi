@@ -3,66 +3,103 @@
     "id": "mod-data-warehouse-bi-l-1",
     "courseId": "mod-data-warehouse-bi-c-1",
     "order": 1,
-    "title": "数据仓库与BI分析 环境依赖搭建与运行机制",
+    "title": "区分事务查询与分析查询",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# 数据仓库与BI分析 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括数据仓库、OLAP。",
+    "contentMarkdown": "## 例题1 · OLAP\n\n数据仓库与业务数据库（OLTP 系统）的核心区别，下列描述最准确的是？\n\n- A. 数据仓库面向主题、集成、相对稳定、反映历史变化，服务于分析决策而非日常交易\n- B. 数据仓库就是容量更大的 MySQL，用途完全相同\n- C. 数据仓库主要处理高并发的小事务写入\n- D. 业务数据库只存历史数据，数据仓库只存当天数据\n\n**参考答案**　A\n\n这是 Inmon 对数据仓库的经典定义：面向主题（按业务域组织而非按应用）、集成（多源数据统一口径）、非易失（批量加载、极少更新）、随时间变化（保留历史快照）。OLTP 系统面向高并发短事务（下单、扣款），数仓面向大规模扫描聚合分析（OLAP），两者设计目标相反，B、C、D 均颠倒或曲解了两者分工。\n\n## 例题2 · 数据仓库\n\n判断：数据仓库中的数据通常按批次定期加载，历史数据一般不做频繁的行级更新，这与 OLTP 数据库的高频增删改形成对比。\n\n**参考答案**　正确\n\n正确。数仓的“非易失性”特征：数据经 ETL 批量（或准实时）载入后主要用于读取分析，历史分区基本只追加或整体重刷，极少行级 UPDATE/DELETE。这一访问模式使数仓可以采用列式存储、大块压缩、分区裁剪等面向扫描优化的技术，而 OLTP 数据库则围绕行级事务与索引点查优化。",
+    "knowledgePoints": [
+      "dw-kp-0001"
+    ],
+    "estimatedMinutes": 8,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-1",
+      "mod-data-warehouse-bi-q-19"
+    ]
   },
   {
     "id": "mod-data-warehouse-bi-l-2",
     "courseId": "mod-data-warehouse-bi-c-1",
     "order": 2,
-    "title": "数据仓库与BI分析 配置文件覆盖与属性解析",
+    "title": "数仓分层与原始数据",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# 数据仓库与BI分析 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括数仓分层、数据仓库、ODS。",
+    "contentMarkdown": "## 例题1 · 数据仓库\n\n典型的数仓分层架构中，ODS、DWD、DWS、ADS 各层的定位，下列正确的是？\n\n- A. ODS 贴源存储原始数据，DWD 做清洗后的明细，DWS 做主题汇总，ADS 面向具体应用输出结果\n- B. ADS 存原始日志，ODS 面向报表应用\n- C. DWD 只存放高度聚合的指标，DWS 存放未清洗的原始数据\n- D. 各层没有任何职责区别，仅是命名习惯\n\n**参考答案**　A\n\n分层是数仓工程化的基石：ODS（Operational Data Store）贴源保留原始数据；DWD（Data Warehouse Detail）完成清洗、规范化、维度退化后的明细事实；DWS（Summary）按主题/粒度做轻度汇总（如用户日粒度宽表）；ADS（Application）直接服务报表、接口等应用。分层可以复用中间结果、隔离变更、便于问题定位与口径管理。B、C 层次颠倒，D 错误。\n\n## 例题2 · ODS\n\n数仓分层中，直接对接源系统、以近乎原样方式保留原始数据的贴源层，通常用哪个三字母英文缩写表示？\n\n**参考答案**　ODS|ods\n\n答案：ODS（Operational Data Store，贴源层/操作数据层）。它以最小加工原则同步业务库、日志等源数据，保留原始形态（常加上采集时间、来源等审计字段），作为数仓的数据备份与追溯基础。下游 DWD 层再做清洗、去重、标准化。保持 ODS 贴源的意义在于：口径问题可回溯到最原始状态重新加工。",
+    "knowledgePoints": [
+      "dw-kp-0001",
+      "dw-kp-0008"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-4",
+      "mod-data-warehouse-bi-q-24"
+    ]
   },
   {
     "id": "mod-data-warehouse-bi-l-3",
     "courseId": "mod-data-warehouse-bi-c-2",
     "order": 1,
-    "title": "数据仓库与BI分析 API 接口规范与数据通信",
+    "title": "事实表与粒度",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# 数据仓库与BI分析 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括维度建模、事实表、粒度。",
+    "contentMarkdown": "## 例题1 · 事实表\n\n维度建模中，“事实表”通常存储的是什么？\n\n- A. 业务过程产生的度量值（如销售金额、数量）以及关联各维度的外键\n- B. 商品名称、类目、品牌等描述性属性\n- C. 数据库的用户权限配置\n- D. ETL 任务的调度日志\n\n**参考答案**　A\n\n事实表是维度模型的核心，记录业务事件的可度量数值（度量/指标）和指向维度表的外键，行数巨大但列相对少；描述性属性（B 所述的商品名称、类目等）放在维度表中，用于对事实做切片切块分析。C、D 与维度建模无关。\n\n## 例题2 · 粒度\n\n订单事实表粒度为“一行一笔订单明细（SKU 级）”，其中运费是订单级金额。若把订单级运费直接复制到每个明细行再按 SUM 汇总，会发生什么？\n\n- A. 运费被重复累加（多明细订单放大运费），这是典型的粒度不一致导致的度量放大错误\n- B. 结果完全正确，不需要任何处理\n- C. SQL 会直接报语法错误\n- D. 数据库会自动识别并去重\n\n**参考答案**　A\n\n订单级度量放到明细粒度的事实表里，一张含 5 个 SKU 的订单其运费会被算 5 遍——这是维度建模中经典的“非可加事实/粒度错配”陷阱。正确做法：把运费按金额或数量分摊到明细行，或将订单级度量放入单独的订单粒度事实表，聚合时按订单去重（如 SUM(DISTINCT) 的替代方案或先按订单聚合）。数据库不会自动纠正这类语义错误。",
+    "knowledgePoints": [
+      "dw-kp-0003",
+      "dw-kp-0004"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-2",
+      "mod-data-warehouse-bi-q-13"
+    ]
   },
   {
     "id": "mod-data-warehouse-bi-l-4",
     "courseId": "mod-data-warehouse-bi-c-2",
     "order": 2,
-    "title": "数据仓库与BI分析 核心控制器与数据校验机制",
+    "title": "星型模型与缓慢变化维",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# 数据仓库与BI分析 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括维度建模、星型模型、缓慢变化维。",
+    "contentMarkdown": "## 例题1 · 星型模型\n\n星型模型（Star Schema）的典型结构是？\n\n- A. 中心一张事实表，直接连接多张未再规范化的维度表\n- B. 所有表两两互相关联形成网状\n- C. 维度表被层层规范化拆分成多级子维表\n- D. 只有维度表没有事实表\n\n**参考答案**　A\n\n星型模型以事实表为中心，维度表做适度冗余（反规范化）直接挂接，形似星星；查询只需事实表与少量维表关联，性能好、易理解，是 BI 场景的主流选择。C 描述的是雪花模型（维度进一步规范化），节省存储但增加关联层级；B、D 不是维度建模的形态。\n\n## 例题2 · 维度建模\n\n用户维度表需要保留用户属性的历史版本（如会员等级变化前后的记录），Kimball 体系中最常用的处理方式是？\n\n- A. SCD Type 2：新增一行记录新版本，用生效/失效日期（或当前标志）标识\n- B. SCD Type 1：直接覆盖旧值，不保留历史\n- C. 把用户表整体删除重建\n- D. 把历史属性存到事实表的度量列里\n\n**参考答案**　A\n\n缓慢变化维（SCD）的 Type 2 通过为同一自然键增加新代理键行、配合 start_date/end_date/is_current 字段，完整保留属性变化历史，使历史事实能关联到当时的维度状态，是需要历史追溯时的标准方案。Type 1 覆盖会丢失历史（B）；C 粗暴且丢历史；D 破坏事实表与维度表的职责分离。",
+    "knowledgePoints": [
+      "dw-kp-0003",
+      "dw-kp-0006"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-3",
+      "mod-data-warehouse-bi-q-8"
+    ]
   },
   {
     "id": "mod-data-warehouse-bi-l-5",
     "courseId": "mod-data-warehouse-bi-c-3",
     "order": 1,
-    "title": "数据仓库与BI分析 缓存优化与垃圾回收调优",
+    "title": "聚合与窗口函数",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# 数据仓库与BI分析 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
+    "summary": "研习主题包括SQL分析、聚合、窗口函数。",
+    "contentMarkdown": "## 例题1 · 聚合\n\n分析“每个省份销售额及全国总计”时，下列哪个 SQL 特性最适合一次性同时得到分省小计和总计？\n\n- A. GROUP BY 加 ROLLUP（或 GROUPING SETS）\n- B. 在 WHERE 里写 OR 连接所有省份名\n- C. SELECT DISTINCT\n- D. ORDER BY 排序\n\n**参考答案**　A\n\nROLLUP 在普通分组之外自动附加逐级汇总行（省份小计 + 全国总计），GROUPING SETS 则可精确指定需要的分组组合，CUBE 生成全部组合，一条 SQL 替代多个 UNION ALL 查询，是数仓报表的常用写法。B 只是过滤条件，C 去重，D 排序，都无法生成汇总行。\n\n## 例题2 · 窗口函数\n\n要计算“每个用户每笔订单金额及其占该用户总消费的比例”，最合适的 SQL 手段是？\n\n- A. 窗口函数：amount / SUM(amount) OVER (PARTITION BY user_id)\n- B. 普通 GROUP BY user_id，因为分组后仍能保留每笔订单明细\n- C. 对订单表做笛卡尔积\n- D. 只能导出到 Excel 手工计算\n\n**参考答案**　A\n\n窗口函数在保留明细行的同时计算分区聚合值，是“明细 + 占比/排名/累计”类需求的标准解法。B 错误：GROUP BY 会把每组坍缩成一行，丢失订单明细，若要保留明细需再关联回去，远不如窗口函数简洁；C 会产生错误的数据膨胀；D 显然不必要。窗口函数（RANK、LAG、SUM OVER 等）是数仓 SQL 面试的必考点。",
     "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-9",
+      "mod-data-warehouse-bi-q-10"
+    ]
   },
   {
     "id": "mod-data-warehouse-bi-l-6",
     "courseId": "mod-data-warehouse-bi-c-3",
     "order": 2,
-    "title": "数据仓库与BI分析 可观测性日志与分布式链路监控",
+    "title": "指标口径与仪表板",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# 数据仓库与BI分析 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `数据仓库与BI分析` 的开发实践中，`数据仓库与BI分析 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 数据仓库与BI分析 生产实践示例\nconsole.log(\"Initializing 数据仓库与BI分析 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括指标体系、数据质量、BI、数据看板。",
+    "contentMarkdown": "## 例题1 · 数据质量\n\n老板质疑周报里的 GMV 与另一张看板对不上。作为 BI 分析师，最专业的第一步处理是？\n\n- A. 核对两处指标的口径定义与统计范围（是否含退款、含税、时间窗口、过滤条件）\n- B. 直接把数字改成一致，先应付过去\n- C. 断定另一张看板一定是错的\n- D. 把两个数取平均值上报\n\n**参考答案**　A\n\n指标对不上的首要嫌疑是口径差异：GMV 是否剔除取消/退款单、是否含运费优惠、按下单时间还是支付时间统计、时区截断等。规范流程是从口径定义 → 取数 SQL → 上游数据链路逐层核对定位差异根源，并推动指标字典统一口径。B、D 是数据造假行为，C 未经验证的断言都不可取。\n\n## 例题2 · 数据看板\n\n以下哪些属于优秀 BI 看板（Dashboard）的设计原则？（多选）\n\n- A. 核心指标放在最显眼位置，信息层级清晰（总览 → 维度拆解 → 明细）\n- B. 图表类型与数据关系匹配：趋势用折线、构成用堆积/饼、对比用条形\n- C. 为看板明确目标受众与要回答的业务问题，而不是堆砌所有图表\n- D. 尽可能在一屏塞入 50 个以上图表，信息越多越好\n\n**参考答案**　A、B、C\n\n好看板遵循金字塔式信息架构（A）、图表语义匹配（B）、以业务问题为导向（C），并保持配色克制、口径标注清晰。D 是反模式：图表过载让用户抓不住重点，产生认知负担，关键异常反而被淹没。“少即是多”是仪表盘设计的基本共识。",
+    "knowledgePoints": [
+      "dw-kp-0002"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-data-warehouse-bi-q-12",
+      "mod-data-warehouse-bi-q-16"
+    ]
   }
 ]

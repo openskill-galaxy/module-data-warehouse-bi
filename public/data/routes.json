@@ -7,43 +7,43 @@
     "steps": [
       {
         "order": 1,
-        "title": "数据仓库与BI分析 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "区分事务查询与分析查询",
+        "description": "研习主题包括数据仓库、OLAP。",
         "courseId": "mod-data-warehouse-bi-c-1",
         "lessonId": "mod-data-warehouse-bi-l-1"
       },
       {
         "order": 2,
-        "title": "数据仓库与BI分析 配置文件覆盖与属性解析",
-        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "title": "数仓分层与原始数据",
+        "description": "研习主题包括数仓分层、数据仓库、ODS。",
         "courseId": "mod-data-warehouse-bi-c-1",
         "lessonId": "mod-data-warehouse-bi-l-2"
       },
       {
         "order": 3,
-        "title": "数据仓库与BI分析 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "事实表与粒度",
+        "description": "研习主题包括维度建模、事实表、粒度。",
         "courseId": "mod-data-warehouse-bi-c-2",
         "lessonId": "mod-data-warehouse-bi-l-3"
       },
       {
         "order": 4,
-        "title": "数据仓库与BI分析 核心控制器与数据校验机制",
-        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "title": "星型模型与缓慢变化维",
+        "description": "研习主题包括维度建模、星型模型、缓慢变化维。",
         "courseId": "mod-data-warehouse-bi-c-2",
         "lessonId": "mod-data-warehouse-bi-l-4"
       },
       {
         "order": 5,
-        "title": "数据仓库与BI分析 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "聚合与窗口函数",
+        "description": "研习主题包括SQL分析、聚合、窗口函数。",
         "courseId": "mod-data-warehouse-bi-c-3",
         "lessonId": "mod-data-warehouse-bi-l-5"
       },
       {
         "order": 6,
-        "title": "数据仓库与BI分析 可观测性日志与分布式链路监控",
-        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "title": "指标口径与仪表板",
+        "description": "研习主题包括指标体系、数据质量、BI、数据看板。",
         "courseId": "mod-data-warehouse-bi-c-3",
         "lessonId": "mod-data-warehouse-bi-l-6"
       }
@@ -57,22 +57,22 @@
     "steps": [
       {
         "order": 1,
-        "title": "数据仓库与BI分析 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "区分事务查询与分析查询",
+        "description": "研习主题包括数据仓库、OLAP。",
         "courseId": "mod-data-warehouse-bi-c-1",
         "lessonId": "mod-data-warehouse-bi-l-1"
       },
       {
         "order": 3,
-        "title": "数据仓库与BI分析 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "事实表与粒度",
+        "description": "研习主题包括维度建模、事实表、粒度。",
         "courseId": "mod-data-warehouse-bi-c-2",
         "lessonId": "mod-data-warehouse-bi-l-3"
       },
       {
         "order": 5,
-        "title": "数据仓库与BI分析 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "聚合与窗口函数",
+        "description": "研习主题包括SQL分析、聚合、窗口函数。",
         "courseId": "mod-data-warehouse-bi-c-3",
         "lessonId": "mod-data-warehouse-bi-l-5"
       }
